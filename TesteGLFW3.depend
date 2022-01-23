@@ -1,0 +1,3087 @@
+# depslib dependency file v1.0
+1434205248 source:c:\users\marcelo\documents\programação\testeglfw3\main.cpp
+	"App/Renderer.h"
+	"App/Preferences.h"
+	"App/Serial.h"
+	"App/Sound.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	<thread>
+	<chrono>
+	<iostream>
+	<functional>
+
+1388517273 c:\msys\1.0\local\include\glfw\glfw3.h
+	<stddef.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<GLES3/gl3.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1407815616 c:\msys\1.0\local\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1426241815 source:c:\users\marcelo\documents\programação\testeglfw3\common\controller.cpp
+	"Controller.h"
+
+1426241712 c:\users\marcelo\documents\programação\testeglfw3\common\controller.h
+
+1426703020 source:c:\users\marcelo\documents\programação\testeglfw3\common\renderer.cpp
+	"Renderer.h"
+	<chrono>
+	<sstream>
+	"Scenes/ExampleScene.h"
+
+1426702253 c:\users\marcelo\documents\programação\testeglfw3\common\renderer.h
+	"gl_includes.h"
+	"Window.h"
+	"Graphics.h"
+	<thread>
+
+1426241660 c:\users\marcelo\documents\programação\testeglfw3\common\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1426555584 c:\users\marcelo\documents\programação\testeglfw3\common\window.h
+	"gl_includes.h"
+	"Monitor.h"
+
+1426555635 source:c:\users\marcelo\documents\programação\testeglfw3\common\window.cpp
+	"Window.h"
+
+1426549542 c:\users\marcelo\documents\programação\testeglfw3\common\monitor.h
+	"gl_includes.h"
+	<vector>
+
+1426649380 source:c:\users\marcelo\documents\programação\testeglfw3\common\monitor.cpp
+	"Monitor.h"
+	<sstream>
+
+1434662762 source:c:\users\marcelo\documents\programação\testeglfw3\common\scene.cpp
+	"Scene.h"
+	"Scenes/DefaultScene.h"
+	<sstream>
+
+1433725873 c:\users\marcelo\documents\programação\testeglfw3\common\scene.h
+	"App/Graphics.h"
+	"Drawable.h"
+	<string>
+	<vector>
+	<vector>
+	<algorithm>
+
+1426964030 c:\users\marcelo\documents\programação\testeglfw3\\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1426481242 c:\users\marcelo\documents\programação\testeglfw3\common\graphicbasics2d.h
+	"gl_includes.h"
+
+1426477269 source:c:\users\marcelo\documents\programação\testeglfw3\common\graphicbasics2d.cpp
+	"GraphicBasics2D.h"
+
+1426704314 c:\users\marcelo\documents\programação\testeglfw3\common\graphics.h
+	"gl_includes.h"
+	"Graphics/FrameBuffer.h"
+	"Graphics/Shader.h"
+	"Graphics/VertexArray.h"
+	"Graphics/VertexBuffer.h"
+	"Window.h"
+
+1426481938 source:c:\users\marcelo\documents\programação\testeglfw3\common\application.cpp
+	"Application.h"
+
+1426481564 c:\users\marcelo\documents\programação\testeglfw3\common\application.h
+
+1426708310 source:c:\users\marcelo\documents\programação\testeglfw3\common\graphics.cpp
+	"Graphics.h"
+
+1426513748 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\shader.cpp
+	"Shader.h"
+	"gl_includes.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1426513721 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\shader.h
+	"OGLObject.h"
+	<string>
+
+1426512704 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\oglobject.h
+
+1426514021 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\texture.cpp
+	"Texture.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"gl_includes.h"
+
+1426513305 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\texture.h
+	"OGLObject.h"
+	<string>
+
+1426512157 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\vertexarray.cpp
+	"VertexArray.h"
+	"gl_includes.h"
+
+1426512704 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\vertexarray.h
+	"OGLObject.h"
+
+1426512704 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\oglobject.cpp
+	"OGLObject.h"
+
+1426512658 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\renderbuffer.cpp
+	"Renderbuffer.h"
+	"gl_includes.h"
+
+1426512704 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\renderbuffer.h
+	"Framebuffer.h"
+
+1426512813 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\framebuffer.h
+	"OGLObject.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1426512506 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\vertexbuffer.cpp
+	"VertexBuffer.h"
+	"gl_includes.h"
+	<iostream>
+
+1426512704 c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\vertexbuffer.h
+	"OGLObject.h"
+	<vector>
+	<cstdint>
+
+1426512971 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\ogl\framebuffer.cpp
+	"Framebuffer.h"
+	"gl_includes.h"
+
+1434731411 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\examplescene.cpp
+	"ExampleScene.h"
+	"App/Serial.h"
+
+1434731205 c:\users\marcelo\documents\programação\testeglfw3\scenes\examplescene.h
+	"App/Window.h"
+	"Common/Scene.h"
+	"Common/Sprite.h"
+	"Common/AnimatedSprite.h"
+	"Common/Effect.h"
+	"Common/Mesh.h"
+	"GL/Texture.h"
+	"GL/Framebuffer.h"
+	"Common/Text.h"
+	"Common/Button.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	"Characters/Jogador.h"
+	"Characters/Inimigo.h"
+	"MusicGenerator.h"
+	"TextureSynth.h"
+
+1426241660 c:\users\marcelo\documents\programação\testeglfw3\\\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1426964030 c:\users\marcelo\documents\programação\testeglfw3\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1429644271 c:\users\marcelo\documents\programação\testeglfw3\\scenes\examplescene.h
+	"App/Window.h"
+	"Common/Scene.h"
+	"Common/Sprite.h"
+	"Common/AnimatedSprite.h"
+	"Common/Effect.h"
+	"Common/Mesh.h"
+	"GL/Texture.h"
+
+1426539838 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\defaultscene.cpp
+	"DefaultScene.h"
+
+1426769311 c:\users\marcelo\documents\programação\testeglfw3\scenes\defaultscene.h
+	"Common/Scene.h"
+
+1427148043 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\framebuffer.cpp
+	"FrameBuffer.h"
+	"gl_includes.h"
+
+1426718765 c:\users\marcelo\documents\programação\testeglfw3\graphics\framebuffer.h
+	"Object.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1426512704 c:\users\marcelo\documents\programação\testeglfw3\graphics\oglobject.h
+
+1426647937 c:\users\marcelo\documents\programação\testeglfw3\graphics\texture.h
+	"Object.h"
+	<string>
+	"gl_includes.h"
+
+1426647680 c:\users\marcelo\documents\programação\testeglfw3\graphics\renderbuffer.h
+	"FrameBuffer.h"
+
+1426512704 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\oglobject.cpp
+	"OGLObject.h"
+
+1426647697 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\renderbuffer.cpp
+	"Renderbuffer.h"
+	"gl_includes.h"
+
+1426971316 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\shader.cpp
+	"Shader.h"
+	"gl_includes.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1426971236 c:\users\marcelo\documents\programação\testeglfw3\graphics\shader.h
+	"Object.h"
+	<string>
+
+1427158661 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\texture.cpp
+	"Texture.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"gl_includes.h"
+
+1426615616 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\vertexarray.cpp
+	"VertexArray.h"
+	"gl_includes.h"
+
+1426599965 c:\users\marcelo\documents\programação\testeglfw3\graphics\vertexarray.h
+	"Object.h"
+
+1426618524 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\vertexbuffer.cpp
+	"VertexBuffer.h"
+	"gl_includes.h"
+	<iostream>
+
+1426600014 c:\users\marcelo\documents\programação\testeglfw3\graphics\vertexbuffer.h
+	"Object.h"
+	<vector>
+	<cstdint>
+
+1426600014 c:\users\marcelo\documents\programação\testeglfw3\\graphics\vertexbuffer.h
+	"Object.h"
+	<vector>
+	<cstdint>
+
+1426512704 c:\users\marcelo\documents\programação\testeglfw3\\graphics\oglobject.h
+
+1426599965 c:\users\marcelo\documents\programação\testeglfw3\\graphics\vertexarray.h
+	"Object.h"
+
+1426971236 c:\users\marcelo\documents\programação\testeglfw3\\graphics\shader.h
+	"Object.h"
+	<string>
+
+1426647937 c:\users\marcelo\documents\programação\testeglfw3\\graphics\texture.h
+	"Object.h"
+	<string>
+	"gl_includes.h"
+
+1426615623 c:\users\marcelo\documents\programação\testeglfw3\\graphics\object.h
+
+1426615623 c:\users\marcelo\documents\programação\testeglfw3\graphics\object.h
+
+1426615615 source:c:\users\marcelo\documents\programação\testeglfw3\graphics\object.cpp
+	"Object.h"
+	"gl_includes.h"
+
+1426618760 source:c:\users\marcelo\documents\programação\testeglfw3\graphics2\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1426618760 c:\users\marcelo\documents\programação\testeglfw3\graphics2\animatedsprite.h
+
+1426618726 source:c:\users\marcelo\documents\programação\testeglfw3\graphics2\framesurface.cpp
+	"FrameSurface.h"
+
+1426618726 c:\users\marcelo\documents\programação\testeglfw3\graphics2\framesurface.h
+
+1426618738 source:c:\users\marcelo\documents\programação\testeglfw3\graphics2\sprite.cpp
+	"Sprite.h"
+
+1426618738 c:\users\marcelo\documents\programação\testeglfw3\graphics2\sprite.h
+
+1426718765 c:\users\marcelo\documents\programação\testeglfw3\\graphics\framebuffer.h
+	"Object.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1426647680 c:\users\marcelo\documents\programação\testeglfw3\\graphics\renderbuffer.h
+	"FrameBuffer.h"
+
+1429713104 source:c:\users\marcelo\documents\programação\testeglfw3\app\application.cpp
+	"Application.h"
+
+1430514591 c:\users\marcelo\documents\programação\testeglfw3\app\application.h
+
+1429570673 source:c:\users\marcelo\documents\programação\testeglfw3\app\controller.cpp
+	"Controller.h"
+	"OGLController.h"
+	<cstring>
+
+1430247546 c:\users\marcelo\documents\programação\testeglfw3\app\controller.h
+
+1431457405 source:c:\users\marcelo\documents\programação\testeglfw3\app\graphics.cpp
+	"Graphics.h"
+	"OGLGraphics.h"
+
+1433361700 c:\users\marcelo\documents\programação\testeglfw3\app\graphics.h
+	"GL/Framebuffer.h"
+	"GL/Shader.h"
+	"Common/Effect.h"
+	"Window.h"
+
+1430315628 c:\users\marcelo\documents\programação\testeglfw3\app\window.h
+	"gl_includes.h"
+	"Monitor.h"
+
+1430315631 c:\users\marcelo\documents\programação\testeglfw3\app\monitor.h
+	<string>
+	<vector>
+
+1430315705 source:c:\users\marcelo\documents\programação\testeglfw3\app\monitor.cpp
+	"Monitor.h"
+	<iostream>
+	"OGLMonitor.h"
+
+1427942781 c:\users\marcelo\documents\programação\testeglfw3\\app\graphics.h
+	"GL/Framebuffer.h"
+	"GL/Shader.h"
+	"Common/Effect.h"
+	"Window.h"
+
+1429132684 c:\users\marcelo\documents\programação\testeglfw3\\app\window.h
+	"gl_includes.h"
+	"Monitor.h"
+
+1426965612 c:\users\marcelo\documents\programação\testeglfw3\\app\monitor.h
+	<string>
+	<vector>
+
+1429659903 source:c:\users\marcelo\documents\programação\testeglfw3\app\renderer.cpp
+	"Renderer.h"
+	"OGL/OGLRenderer.h"
+
+1430315314 c:\users\marcelo\documents\programação\testeglfw3\app\renderer.h
+
+1426767180 c:\users\marcelo\documents\programação\testeglfw3\\scenes\sprite.h
+
+1426766989 c:\users\marcelo\documents\programação\testeglfw3\\scenes\framecanvas.h
+	"App/Window.h"
+	"Graphics/Vertexbuffer.h"
+	"Graphics/Vertexarray.h"
+	"Graphics/Shader.h"
+	"Graphics/Texture.h"
+	"Graphics/FrameBuffer.h"
+
+1426766927 c:\users\marcelo\documents\programação\testeglfw3\\scenes\animatedsprite.h
+	"Drawable.h"
+
+1434746054 c:\users\marcelo\documents\programação\testeglfw3\common\drawable.h
+	"App/Graphics.h"
+	"Object.h"
+	"Transform.h"
+	"GL/Framebuffer.h"
+
+1430315975 source:c:\users\marcelo\documents\programação\testeglfw3\app\window.cpp
+	"Window.h"
+	"OGLWindow.h"
+	<iostream>
+
+1433507989 source:c:\users\marcelo\documents\programação\testeglfw3\common\drawable.cpp
+	"Drawable.h"
+
+1426766321 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1426766927 c:\users\marcelo\documents\programação\testeglfw3\scenes\animatedsprite.h
+	"Drawable.h"
+
+1426767180 c:\users\marcelo\documents\programação\testeglfw3\scenes\sprite.h
+
+1426766989 c:\users\marcelo\documents\programação\testeglfw3\scenes\framecanvas.h
+	"App/Window.h"
+	"Graphics/Vertexbuffer.h"
+	"Graphics/Vertexarray.h"
+	"Graphics/Shader.h"
+	"Graphics/Texture.h"
+	"Graphics/FrameBuffer.h"
+
+1426766710 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\framecanvas.cpp
+	"FrameCanvas.h"
+
+1426767187 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\sprite.cpp
+	"Sprite.h"
+
+1430612471 c:\users\marcelo\documents\programação\testeglfw3\common\sprite.h
+	"Drawable.h"
+	"GL/Texture.h"
+
+1434669375 c:\users\marcelo\documents\programação\testeglfw3\common\animatedsprite.h
+	"Sprite.h"
+	<map>
+
+1434718859 source:c:\users\marcelo\documents\programação\testeglfw3\common\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1426781955 source:c:\users\marcelo\documents\programação\testeglfw3\common\framecanvas.cpp
+	"FrameCanvas.h"
+
+1428987771 c:\users\marcelo\documents\programação\testeglfw3\common\framecanvas.h
+	"App/Window.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+	"GL/FrameBuffer.h"
+	"Common/Rect.h"
+
+1430624015 source:c:\users\marcelo\documents\programação\testeglfw3\common\sprite.cpp
+	"Sprite.h"
+
+1433701887 source:c:\users\marcelo\documents\programação\testeglfw3\common\layer.cpp
+	"Layer.h"
+
+1433701911 c:\users\marcelo\documents\programação\testeglfw3\common\layer.h
+	"Drawable.h"
+	"GL\Framebuffer.h"
+	"GL\Shader.h"
+	<map>
+	<string>
+
+1427382353 c:\users\marcelo\documents\programação\testeglfw3\\common\scene.h
+	"App/Graphics.h"
+	"Drawable.h"
+	<string>
+	<vector>
+	<algorithm>
+
+1429647115 c:\users\marcelo\documents\programação\testeglfw3\\common\sprite.h
+	"Drawable.h"
+	"GL/Texture.h"
+
+1427397263 c:\users\marcelo\documents\programação\testeglfw3\\common\animatedsprite.h
+	"Sprite.h"
+
+1429649442 c:\users\marcelo\documents\programação\testeglfw3\\common\drawable.h
+	"App/Graphics.h"
+	"Common/Object.h"
+
+1427756179 c:\users\marcelo\documents\programação\testeglfw3\\common\layer.h
+	"Drawable.h"
+	"GL\Framebuffer.h"
+	"GL\Shader.h"
+	<map>
+	<string>
+
+1426776712 c:\users\marcelo\documents\programação\testeglfw3\\common\framecanvas.h
+	"App/Window.h"
+	"Graphics/Vertexbuffer.h"
+	"Graphics/Vertexarray.h"
+	"Graphics/Shader.h"
+	"Graphics/Texture.h"
+	"Graphics/FrameBuffer.h"
+
+1428901044 c:\users\marcelo\documents\programação\testeglfw3\\common\rect.h
+	"gl_includes.h"
+	"GL/VertexBuffer.h"
+	"GL/VertexArray.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+
+1430605420 source:c:\users\marcelo\documents\programação\testeglfw3\common\rect.cpp
+	"Canvas.h"
+
+1430614690 c:\users\marcelo\documents\programação\testeglfw3\common\rect.h
+
+1426769311 c:\users\marcelo\documents\programação\testeglfw3\\scenes\defaultscene.h
+	"Common/Scene.h"
+
+1426943717 source:c:\users\marcelo\documents\programação\testeglfw3\common\camera.cpp
+	"Camera.h"
+
+1426943512 c:\users\marcelo\documents\programação\testeglfw3\common\camera.h
+
+1427072798 source:c:\users\marcelo\documents\programação\testeglfw3\common\effectshader.cpp
+	"EffectShader.h"
+
+1427651802 c:\users\marcelo\documents\programação\testeglfw3\common\effectshader.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1433361776 c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglgraphics.h
+	"App/Graphics.h"
+	"Common/Canvas.h"
+	"Common/Effect.h"
+	"Common/Text.h"
+
+1430247968 source:c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglcontroller.cpp
+	"OGLController.h"
+	"OGLWindow.h"
+
+1430315158 c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglcontroller.h
+	"App/Controller.h"
+	"App/Window.h"
+
+1434199797 source:c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglgraphics.cpp
+	"OGLGraphics.h"
+	"gl_includes.h"
+
+1430231574 source:c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglmonitor.cpp
+	"OGLMonitor.h"
+	"gl_includes.h"
+	<sstream>
+
+1426965582 c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglmonitor.h
+	"App/Monitor.h"
+
+1434461992 source:c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglrenderer.cpp
+	"OGLRenderer.h"
+	"App/Monitor.h"
+	"App/Sound.h"
+	"GL/Texture.h"
+	"Common/Canvas.h"
+	"Common/Transition.h"
+	"Common/Text.h"
+	"Common/Layer2.h"
+	<thread>
+	<chrono>
+	<sstream>
+	"Scenes/ExampleScene.h"
+	"Scenes/ExampleScene2.h"
+	"Scenes/ExampleScene3.h"
+
+1433728401 c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglrenderer.h
+	"App/Renderer.h"
+	"App/Window.h"
+	"Common/Scene.h"
+
+1433590685 source:c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglwindow.cpp
+	"OGLWindow.h"
+
+1432731263 c:\users\marcelo\documents\programação\testeglfw3\app\ogl\oglwindow.h
+	"gl_includes.h"
+	"App/Monitor.h"
+	"App/Window.h"
+
+1429645539 c:\users\marcelo\documents\programação\testeglfw3\\app\renderer.h
+
+1427651802 c:\users\marcelo\documents\programação\testeglfw3\\common\effectshader.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1428016458 c:\users\marcelo\documents\programação\testeglfw3\\common\manager.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1428016458 c:\users\marcelo\documents\programação\testeglfw3\common\manager.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1427849876 source:c:\users\marcelo\documents\programação\testeglfw3\common\manager.cpp
+	"Manager.h"
+
+1427085077 source:c:\users\marcelo\documents\programação\testeglfw3\common\transitionshader.cpp
+	"TransitionShader.h"
+
+1427085077 c:\users\marcelo\documents\programação\testeglfw3\common\transitionshader.h
+
+1427902440 c:\users\marcelo\documents\programação\testeglfw3\\gl\framebuffer.h
+	"GLObject.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1427383981 c:\users\marcelo\documents\programação\testeglfw3\\gl\object.h
+
+1427903681 c:\users\marcelo\documents\programação\testeglfw3\\gl\texture.h
+	"GLObject.h"
+	<string>
+	"gl_includes.h"
+
+1427898875 c:\users\marcelo\documents\programação\testeglfw3\\gl\renderbuffer.h
+	"GLObject.h"
+
+1429064669 c:\users\marcelo\documents\programação\testeglfw3\\gl\shader.h
+	"GLObject.h"
+	<string>
+
+1427384072 c:\users\marcelo\documents\programação\testeglfw3\\gl\vertexbuffer.h
+	"GLObject.h"
+	<vector>
+	<cstdint>
+
+1427384072 c:\users\marcelo\documents\programação\testeglfw3\\gl\vertexarray.h
+	"GLObject.h"
+
+1433557898 source:c:\users\marcelo\documents\programação\testeglfw3\gl\framebuffer.cpp
+	"Framebuffer.h"
+	"gl_includes.h"
+
+1433720865 c:\users\marcelo\documents\programação\testeglfw3\gl\framebuffer.h
+	"GLObject.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1427383981 c:\users\marcelo\documents\programação\testeglfw3\gl\object.h
+
+1434247266 c:\users\marcelo\documents\programação\testeglfw3\gl\texture.h
+	"GLObject.h"
+	<string>
+	"gl_includes.h"
+
+1433357514 c:\users\marcelo\documents\programação\testeglfw3\gl\renderbuffer.h
+	"GLObject.h"
+
+1426615615 source:c:\users\marcelo\documents\programação\testeglfw3\gl\object.cpp
+	"Object.h"
+	"gl_includes.h"
+
+1433357579 source:c:\users\marcelo\documents\programação\testeglfw3\gl\renderbuffer.cpp
+	"Renderbuffer.h"
+	"gl_includes.h"
+
+1433505403 source:c:\users\marcelo\documents\programação\testeglfw3\gl\shader.cpp
+	"Shader.h"
+	"gl_includes.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1429064669 c:\users\marcelo\documents\programação\testeglfw3\gl\shader.h
+	"GLObject.h"
+	<string>
+
+1434251947 source:c:\users\marcelo\documents\programação\testeglfw3\gl\texture.cpp
+	"Texture.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"gl_includes.h"
+	"FreeImage.h"
+
+1427899149 source:c:\users\marcelo\documents\programação\testeglfw3\gl\vertexarray.cpp
+	"VertexArray.h"
+	"gl_includes.h"
+
+1427384072 c:\users\marcelo\documents\programação\testeglfw3\gl\vertexarray.h
+	"GLObject.h"
+
+1427899289 source:c:\users\marcelo\documents\programação\testeglfw3\gl\vertexbuffer.cpp
+	"VertexBuffer.h"
+	"gl_includes.h"
+	<iostream>
+
+1427384072 c:\users\marcelo\documents\programação\testeglfw3\gl\vertexbuffer.h
+	"GLObject.h"
+	<vector>
+	<cstdint>
+
+1427211439 c:\users\marcelo\documents\programação\testeglfw3\\common\layer.cpp
+	"Layer.h"
+	"EffectShader.h"
+
+1429649442 c:\users\marcelo\documents\programação\testeglfw3\\common\object.h
+
+1431975955 c:\users\marcelo\documents\programação\testeglfw3\common\object.h
+	<string>
+
+1427383981 c:\users\marcelo\documents\programação\testeglfw3\\gl\globject.h
+
+1429649919 c:\users\marcelo\documents\programação\testeglfw3\gl\globject.h
+
+1427384044 source:c:\users\marcelo\documents\programação\testeglfw3\gl\globject.cpp
+	"GLObject.h"
+	"gl_includes.h"
+
+1429654435 source:c:\users\marcelo\documents\programação\testeglfw3\common\utils.cpp
+	"Utils.h"
+
+1429654229 c:\users\marcelo\documents\programação\testeglfw3\common\utils.h
+
+1427413495 source:c:\users\marcelo\documents\programação\testeglfw3\common\mesh.cpp
+	"Mesh.h"
+
+1427852630 c:\users\marcelo\documents\programação\testeglfw3\common\mesh.h
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	"App/Window.h"
+	"gl_includes.h"
+	<vector>
+	<typeinfo>
+
+1427852630 c:\users\marcelo\documents\programação\testeglfw3\\common\mesh.h
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	"App/Window.h"
+	"gl_includes.h"
+	<vector>
+	<typeinfo>
+
+1434288611 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\examplescene2.cpp
+	"ExampleScene2.h"
+
+1427415220 c:\users\marcelo\documents\programação\testeglfw3\scenes\examplescene2.h
+	"Common/Scene.h"
+	"Common/Mesh.h"
+
+1427415220 c:\users\marcelo\documents\programação\testeglfw3\\scenes\examplescene2.h
+	"Common/Scene.h"
+	"Common/Mesh.h"
+
+1433728874 source:c:\users\marcelo\documents\programação\testeglfw3\common\button.cpp
+	"Button.h"
+
+1432652042 c:\users\marcelo\documents\programação\testeglfw3\common\button.h
+	"Drawable.h"
+
+1429646703 source:c:\users\marcelo\documents\programação\testeglfw3\app\serial.cpp
+	"Serial.h"
+
+1429645947 c:\users\marcelo\documents\programação\testeglfw3\app\serial.h
+	<windows.h>
+	<string>
+	<iostream>
+	<sstream>
+	<vector>
+	<thread>
+
+1431975716 source:c:\users\marcelo\documents\programação\testeglfw3\common\object.cpp
+	"Object.h"
+	<cstdlib>
+	<ctime>
+
+1427762699 c:\users\marcelo\documents\programação\testeglfw3\\common\transform.h
+	"Utils.h"
+
+1427762561 c:\users\marcelo\documents\programação\testeglfw3\\common\utils.h
+
+1430616144 c:\users\marcelo\documents\programação\testeglfw3\common\transform.h
+	"Utils.h"
+
+1430616738 source:c:\users\marcelo\documents\programação\testeglfw3\common\transform.cpp
+	"Transform.h"
+	<cstring>
+
+1434401636 source:c:\users\marcelo\documents\programação\testeglfw3\common\text.cpp
+	"Text.h"
+
+1434383788 c:\users\marcelo\documents\programação\testeglfw3\common\text.h
+	<iostream>
+	"Graphics.h"
+	"GL/Texture.h"
+	<ft2build.h>
+	<vector>
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	<vector>
+	<sstream>
+
+1429232966 c:\users\marcelo\documents\programação\testeglfw3\\common\text.h
+	<iostream>
+	"Graphics.h"
+	"GL/Texture.h"
+	<ft2build.h>
+	<vector>
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	<vector>
+	<sstream>
+
+1427864255 source:c:\users\marcelo\documents\programação\testeglfw3\common\effect.cpp
+	"Effect.h"
+
+1434153070 c:\users\marcelo\documents\programação\testeglfw3\common\effect.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1427864652 c:\users\marcelo\documents\programação\testeglfw3\\common\effect.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1428016630 source:c:\users\marcelo\documents\programação\testeglfw3\common\panel.cpp
+	"Panel.h"
+
+1428017089 c:\users\marcelo\documents\programação\testeglfw3\common\panel.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1432651606 source:c:\users\marcelo\documents\programação\testeglfw3\app\sound.cpp
+	"Sound.h"
+	"Common/Sound/Manager.h"
+	<cstring>
+	<iostream>
+	<sstream>
+
+1431633110 c:\users\marcelo\documents\programação\testeglfw3\app\sound.h
+	<portaudio.h>
+
+1434684261 source:c:\users\marcelo\documents\programação\testeglfw3\scenes\examplescene3.cpp
+	"ExampleScene3.h"
+
+1434288902 c:\users\marcelo\documents\programação\testeglfw3\scenes\examplescene3.h
+	"GL/Texture.h"
+	"Common/Sprite.h"
+	"Common/Scene.h"
+	"Common/Text.h"
+
+1428475497 c:\users\marcelo\documents\programação\testeglfw3\\scenes\examplescene3.h
+	"Common/Scene.h"
+	"Common/Text.h"
+
+1429571980 c:\users\marcelo\documents\programação\testeglfw3\\app\controller.h
+
+1431522027 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\buffer.cpp
+	"Sound/Buffer.h"
+	<cstring>
+
+1431522551 c:\users\marcelo\documents\programação\testeglfw3\common\sound\buffer.h
+
+1432990541 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\sampler.cpp
+	"Sound/Sampler.h"
+	<algorithm>
+	<iostream>
+	<cmath>
+
+1434045839 c:\users\marcelo\documents\programação\testeglfw3\common\sound\sampler.h
+	"Common/Sound/Wavetable.h"
+	"Common/Sound/Module.h"
+	"Common/Sound/EnvelopeSmoother.h"
+	"Common/Sound/Resampler.h"
+	<queue>
+	<mutex>
+
+1432140035 c:\users\marcelo\documents\programação\testeglfw3\common\sound\wavetable.h
+	"Common/Sound/Wave.h"
+	<map>
+	<vector>
+	<string>
+
+1433200076 c:\users\marcelo\documents\programação\testeglfw3\common\sound\wave.h
+	"Common/Sound/Buffer.h"
+	<cstring>
+
+1434203237 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\wave.cpp
+	"Sound/Wave.h"
+	<algorithm>
+	<iostream>
+
+1432140024 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\wavetable.cpp
+	"Sound/Wavetable.h"
+	<iostream>
+
+1431628463 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\loader.cpp
+	"Sound/Loader.h"
+	"Sound/Wavetable.h"
+	<fstream>
+	<iostream>
+
+1431628459 c:\users\marcelo\documents\programação\testeglfw3\common\sound\loader.h
+	"Common/Sound/Wavetable.h"
+
+1429572195 c:\users\marcelo\documents\programação\testeglfw3\\app\sound.h
+	<portaudio.h>
+
+1434253040 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\manager.cpp
+	"Sound/Manager.h"
+	<iostream>
+	<cstring>
+
+1432932461 c:\users\marcelo\documents\programação\testeglfw3\common\sound\manager.h
+	"Common/Sound/Module.h"
+	<map>
+	<mutex>
+	<vector>
+	<string>
+
+1429495297 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\channel.cpp
+	"Sound/Channel.h"
+
+1429539910 c:\users\marcelo\documents\programação\testeglfw3\common\sound\channel.h
+	"App/Sound.h"
+
+1429542867 c:\users\marcelo\documents\programação\testeglfw3\\common\sound\manager.h
+	"Sound/Module.h"
+	<map>
+	<vector>
+	<string>
+
+1432990505 c:\users\marcelo\documents\programação\testeglfw3\common\sound\module.h
+	<string>
+
+1432990531 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\module.cpp
+	"Sound/Module.h"
+	<cstdlib>
+	<cstring>
+
+1429566190 source:c:\users\marcelo\documents\programação\testeglfw3\app\preferences.cpp
+	"Preferences.h"
+
+1430825984 c:\users\marcelo\documents\programação\testeglfw3\app\preferences.h
+	<map>
+	<string>
+
+1429645947 c:\users\marcelo\documents\programação\testeglfw3\\app\serial.h
+	<windows.h>
+	<string>
+	<iostream>
+	<sstream>
+	<vector>
+	<thread>
+
+1429590556 c:\users\marcelo\documents\programação\testeglfw3\\common\sound\loader.h
+	"Sound/Wavetable.h"
+
+1429577695 c:\users\marcelo\documents\programação\testeglfw3\\common\sound\sampler.h
+	"Sound/Wavetable.h"
+	"Sound/Module.h"
+
+1429649970 c:\users\marcelo\documents\programação\testeglfw3\common\object2.h
+
+1429649970 source:c:\users\marcelo\documents\programação\testeglfw3\common\object2.cpp
+	"Object2.h"
+
+1429652066 c:\users\marcelo\documents\programação\testeglfw3\common\utils.cpp
+	"Utils.h"
+
+1430321501 source:c:\users\marcelo\documents\programação\testeglfw3\app\console.cpp
+	"Console.h"
+
+1430321501 c:\users\marcelo\documents\programação\testeglfw3\app\console.h
+
+1434152571 c:\users\marcelo\documents\programação\testeglfw3\common\canvas.h
+	"gl_includes.h"
+	"GL/VertexBuffer.h"
+	"GL/VertexArray.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+
+1434249930 source:c:\users\marcelo\documents\programação\testeglfw3\common\canvas.cpp
+	"Canvas.h"
+
+1430604520 c:\users\marcelo\documents\programação\testeglfw3\common\\canvas.h
+	"gl_includes.h"
+	"GL/VertexBuffer.h"
+	"GL/VertexArray.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+
+1434202966 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\resampler.cpp
+	"Sound/Resampler.h"
+	<cmath>
+
+1434201293 c:\users\marcelo\documents\programação\testeglfw3\common\sound\resampler.h
+	"Wavetable.h"
+	<iostream>
+
+1431908782 c:\users\marcelo\documents\programação\testeglfw3\common\sound\envelopersmoother.h
+
+1432141298 c:\users\marcelo\documents\programação\testeglfw3\common\sound\envelopesmoother.h
+
+1432596823 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\envelopesmoother.cpp
+	"Sound/EnvelopeSmoother.h"
+
+1432931178 source:c:\users\marcelo\documents\programação\testeglfw3\music\musicgenerator.cpp
+	"MusicGenerator.h"
+	<cstdlib>
+
+1432220024 c:\users\marcelo\documents\programação\testeglfw3\music\musicgenerator.h
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+
+1432232159 source:c:\users\marcelo\documents\programação\testeglfw3\common\sound\io.cpp
+	"Sound/IO.h"
+
+1432238042 c:\users\marcelo\documents\programação\testeglfw3\common\sound\io.h
+
+1432263012 source:c:\users\marcelo\documents\programação\testeglfw3\common\parameter.cpp
+	"Parameter.h"
+
+1432263451 c:\users\marcelo\documents\programação\testeglfw3\common\parameter.h
+	<map>
+	<queue>
+
+1432816798 source:c:\users\marcelo\documents\programação\testeglfw3\temp\teste_pimpl.cpp
+	"Teste_pImpl.h"
+
+1432845069 c:\users\marcelo\documents\programação\testeglfw3\temp\teste_pimpl.h
+	<map>
+
+1434286051 c:\users\marcelo\documents\programação\testeglfw3\music\texturesynth.h
+	<Common\Sound\Module.h>
+	<Common\Sound\Resampler.h>
+	<Common\Sound\Sampler.h>
+	<Common\Sound\Loader.h>
+	<Common\Sound\Manager.h>
+	<App\Graphics.h>
+	<GL\Framebuffer.h>
+	<GL\RenderBuffer.h>
+	<Oscillator.h>
+	<ChordBank.h>
+
+1434731513 source:c:\users\marcelo\documents\programação\testeglfw3\music\texturesynth.cpp
+	"TextureSynth.h"
+	<algorithm>
+	<cstring>
+	<cstdlib>
+	<ctime>
+
+1434115315 c:\users\marcelo\documents\programação\testeglfw3\music\oscillator.h
+
+1434115315 source:c:\users\marcelo\documents\programação\testeglfw3\music\oscillator.cpp
+	"Oscillator.h"
+	<cmath>
+
+1434292601 source:c:\users\marcelo\documents\programação\testeglfw3\common\transition.cpp
+	"Transition.h"
+
+1434204718 c:\users\marcelo\documents\programação\testeglfw3\common\transition.h
+	"GL\Texture.h"
+	"GL\Framebuffer.h"
+	"Common\Drawable.h"
+	"Common\Scene.h"
+	"Common\Canvas.h"
+	"App\Window.h"
+
+1433521713 source:c:\users\marcelo\documents\programação\testeglfw3\gl\pixelbuffer.cpp
+	"Pixelbuffer.h"
+
+1433521824 c:\users\marcelo\documents\programação\testeglfw3\gl\pixelbuffer.h
+	"GLObject.h"
+	"gl_includes.h"
+
+1433703585 source:c:\users\marcelo\documents\programação\testeglfw3\common\layer2.cpp
+	"Layer2.h"
+
+1433723614 c:\users\marcelo\documents\programação\testeglfw3\common\layer2.h
+	"Common\Canvas.h"
+	"Scene.h"
+	"GL\Shader.h"
+	"GL\Framebuffer.h"
+	"GL\Texture.h"
+	<vector>
+
+1434043617 c:\users\marcelo\documents\programação\testeglfw3\music\chordbank.h
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<string>
+	<sstream>
+	<map>
+
+1434111415 source:c:\users\marcelo\documents\programação\testeglfw3\music\chordbank.cpp
+	"ChordBank.h"
+
+1425431874 c:\libs\freeimage3170\x32\freeimage.h
+	<wchar.h>
+	<inttypes.h>
+
+1434683434 source:c:\users\marcelo\documents\programação\testeglfw3\common\character.cpp
+	"Character.h"
+
+1434683382 c:\users\marcelo\documents\programação\testeglfw3\common\character.h
+	"AnimatedSprite.h"
+	<memory>
+
+1434564998 source:c:\users\marcelo\documents\programação\testeglfw3\music\envelopecontroller.cpp
+	"EnvelopeController.h"
+
+1434565024 c:\users\marcelo\documents\programação\testeglfw3\music\envelopecontroller.h
+
+1434726921 c:\users\marcelo\documents\programação\testeglfw3\characters\character.h
+	"Common/AnimatedSprite.h"
+	<memory>
+
+1434726129 source:c:\users\marcelo\documents\programação\testeglfw3\characters\character.cpp
+	"Character.h"
+
+1434727385 c:\users\marcelo\documents\programação\testeglfw3\characters\jogador.h
+	"Character.h"
+
+1434727447 source:c:\users\marcelo\documents\programação\testeglfw3\characters\jogador.cpp
+	"Jogador.h"
+
+1434731245 source:c:\users\marcelo\documents\programação\testeglfw3\characters\inimigo.cpp
+	"Inimigo.h"
+
+1434737678 c:\users\marcelo\documents\programação\testeglfw3\characters\inimigo.h
+	"Character.h"
+
+1429713106 source:c:\users\4423844.univali\desktop\testeglfw3\app\application.cpp
+	"Application.h"
+
+1430514592 c:\users\4423844.univali\desktop\testeglfw3\app\application.h
+
+1430321502 source:c:\users\4423844.univali\desktop\testeglfw3\app\console.cpp
+	"Console.h"
+
+1430321502 c:\users\4423844.univali\desktop\testeglfw3\app\console.h
+
+1429570674 source:c:\users\4423844.univali\desktop\testeglfw3\app\controller.cpp
+	"Controller.h"
+	"OGLController.h"
+	<cstring>
+
+1430247548 c:\users\4423844.univali\desktop\testeglfw3\app\controller.h
+
+1430315160 c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglcontroller.h
+	"App/Controller.h"
+	"App/Window.h"
+
+1430315630 c:\users\4423844.univali\desktop\testeglfw3\app\window.h
+	"gl_includes.h"
+	"Monitor.h"
+
+1426964032 c:\users\4423844.univali\desktop\testeglfw3\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1430315632 c:\users\4423844.univali\desktop\testeglfw3\app\monitor.h
+	<string>
+	<vector>
+
+1431457406 source:c:\users\4423844.univali\desktop\testeglfw3\app\graphics.cpp
+	"Graphics.h"
+	"OGLGraphics.h"
+
+1433361702 c:\users\4423844.univali\desktop\testeglfw3\app\graphics.h
+	"GL/Framebuffer.h"
+	"GL/Shader.h"
+	"Common/Effect.h"
+	"Window.h"
+
+1433720866 c:\users\4423844.univali\desktop\testeglfw3\gl\framebuffer.h
+	"GLObject.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1429649920 c:\users\4423844.univali\desktop\testeglfw3\gl\globject.h
+
+1435236952 c:\users\4423844.univali\desktop\testeglfw3\gl\texture.h
+	"GLObject.h"
+	<string>
+	"gl_includes.h"
+	<map>
+
+1433357516 c:\users\4423844.univali\desktop\testeglfw3\gl\renderbuffer.h
+	"GLObject.h"
+
+1429064670 c:\users\4423844.univali\desktop\testeglfw3\gl\shader.h
+	"GLObject.h"
+	<string>
+
+1434153072 c:\users\4423844.univali\desktop\testeglfw3\common\effect.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1428016460 c:\users\4423844.univali\desktop\testeglfw3\common\manager.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1433361778 c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglgraphics.h
+	"App/Graphics.h"
+	"Common/Canvas.h"
+	"Common/Effect.h"
+	"Common/Text.h"
+
+1434152572 c:\users\4423844.univali\desktop\testeglfw3\common\canvas.h
+	"gl_includes.h"
+	"GL/VertexBuffer.h"
+	"GL/VertexArray.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+
+1427384074 c:\users\4423844.univali\desktop\testeglfw3\gl\vertexbuffer.h
+	"GLObject.h"
+	<vector>
+	<cstdint>
+
+1427384074 c:\users\4423844.univali\desktop\testeglfw3\gl\vertexarray.h
+	"GLObject.h"
+
+1434383790 c:\users\4423844.univali\desktop\testeglfw3\common\text.h
+	<iostream>
+	"Graphics.h"
+	"GL/Texture.h"
+	<ft2build.h>
+	<vector>
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	<vector>
+	<sstream>
+
+1430315706 source:c:\users\4423844.univali\desktop\testeglfw3\app\monitor.cpp
+	"Monitor.h"
+	<iostream>
+	"OGLMonitor.h"
+
+1426965584 c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglmonitor.h
+	"App/Monitor.h"
+
+1430247970 source:c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglcontroller.cpp
+	"OGLController.h"
+	"OGLWindow.h"
+
+1432731264 c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglwindow.h
+	"gl_includes.h"
+	"App/Monitor.h"
+	"App/Window.h"
+
+1434199798 source:c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglgraphics.cpp
+	"OGLGraphics.h"
+	"gl_includes.h"
+
+1430231576 source:c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglmonitor.cpp
+	"OGLMonitor.h"
+	"gl_includes.h"
+	<sstream>
+
+1435364261 source:c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglrenderer.cpp
+	"OGLRenderer.h"
+	"App/Monitor.h"
+	"App/Sound.h"
+	"GL/Texture.h"
+	"Common/Canvas.h"
+	"Common/Transition.h"
+	"Common/Text.h"
+	"Common/Layer2.h"
+	<thread>
+	<chrono>
+	<sstream>
+	"Scenes/ExampleScene.h"
+	"Scenes/ExampleScene2.h"
+	"Scenes/ExampleScene3.h"
+
+1435240566 c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglrenderer.h
+	"App/Renderer.h"
+	"App/Window.h"
+	"Common/Scene.h"
+
+1430315316 c:\users\4423844.univali\desktop\testeglfw3\app\renderer.h
+
+1433725874 c:\users\4423844.univali\desktop\testeglfw3\common\scene.h
+	"App/Graphics.h"
+	"Drawable.h"
+	<string>
+	<vector>
+	<vector>
+	<algorithm>
+
+1434746056 c:\users\4423844.univali\desktop\testeglfw3\common\drawable.h
+	"App/Graphics.h"
+	"Object.h"
+	"Transform.h"
+	"GL/Framebuffer.h"
+
+1431975956 c:\users\4423844.univali\desktop\testeglfw3\common\object.h
+	<string>
+
+1430616146 c:\users\4423844.univali\desktop\testeglfw3\common\transform.h
+	"Utils.h"
+
+1429654230 c:\users\4423844.univali\desktop\testeglfw3\common\utils.h
+
+1431633112 c:\users\4423844.univali\desktop\testeglfw3\app\sound.h
+	<portaudio.h>
+
+1435240346 c:\users\4423844.univali\desktop\testeglfw3\common\transition.h
+	"GL\Texture.h"
+	"GL\Framebuffer.h"
+	"Common\Drawable.h"
+	"Common\Scene.h"
+	"Common\Canvas.h"
+	"App\Window.h"
+
+1433723616 c:\users\4423844.univali\desktop\testeglfw3\common\layer2.h
+	"Common\Canvas.h"
+	"Scene.h"
+	"GL\Shader.h"
+	"GL\Framebuffer.h"
+	"GL\Texture.h"
+	<vector>
+
+1435963271 c:\users\4423844.univali\desktop\testeglfw3\scenes\examplescene.h
+	"App/Window.h"
+	"Common/Scene.h"
+	"Common/Sprite.h"
+	"Common/AnimatedSprite.h"
+	"Common/Effect.h"
+	"Common/Mesh.h"
+	"GL/Texture.h"
+	"GL/Framebuffer.h"
+	"Common/Text.h"
+	"Common/Button.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	"Characters/Jogador.h"
+	"Characters/Inimigo.h"
+	"Characters/Tiro.h"
+	"Characters/Drop.h"
+	"MusicGenerator.h"
+	"TextureSynth.h"
+
+1435266671 c:\users\4423844.univali\desktop\testeglfw3\common\sprite.h
+	"Drawable.h"
+	"GL/Texture.h"
+
+1434669376 c:\users\4423844.univali\desktop\testeglfw3\common\animatedsprite.h
+	"Sprite.h"
+	<map>
+
+1427852632 c:\users\4423844.univali\desktop\testeglfw3\common\mesh.h
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	"App/Window.h"
+	"gl_includes.h"
+	<vector>
+	<typeinfo>
+
+1432652044 c:\users\4423844.univali\desktop\testeglfw3\common\button.h
+	"Drawable.h"
+
+1431628460 c:\users\4423844.univali\desktop\testeglfw3\common\sound\loader.h
+	"Common/Sound/Wavetable.h"
+
+1432140036 c:\users\4423844.univali\desktop\testeglfw3\common\sound\wavetable.h
+	"Common/Sound/Wave.h"
+	<map>
+	<vector>
+	<string>
+
+1433200078 c:\users\4423844.univali\desktop\testeglfw3\common\sound\wave.h
+	"Common/Sound/Buffer.h"
+	<cstring>
+
+1431522552 c:\users\4423844.univali\desktop\testeglfw3\common\sound\buffer.h
+
+1432932462 c:\users\4423844.univali\desktop\testeglfw3\common\sound\manager.h
+	"Common/Sound/Module.h"
+	<map>
+	<mutex>
+	<vector>
+	<string>
+
+1432990506 c:\users\4423844.univali\desktop\testeglfw3\common\sound\module.h
+	<string>
+
+1434045840 c:\users\4423844.univali\desktop\testeglfw3\common\sound\sampler.h
+	"Common/Sound/Wavetable.h"
+	"Common/Sound/Module.h"
+	"Common/Sound/EnvelopeSmoother.h"
+	"Common/Sound/Resampler.h"
+	<queue>
+	<mutex>
+
+1432141300 c:\users\4423844.univali\desktop\testeglfw3\common\sound\envelopesmoother.h
+
+1434201294 c:\users\4423844.univali\desktop\testeglfw3\common\sound\resampler.h
+	"Wavetable.h"
+	<iostream>
+
+1435272851 c:\users\4423844.univali\desktop\testeglfw3\characters\jogador.h
+	"Character.h"
+	"Arma.h"
+
+1435262172 c:\users\4423844.univali\desktop\testeglfw3\characters\character.h
+	"Common/AnimatedSprite.h"
+	<memory>
+
+1435262406 c:\users\4423844.univali\desktop\testeglfw3\characters\inimigo.h
+	"Character.h"
+
+1432220026 c:\users\4423844.univali\desktop\testeglfw3\music\musicgenerator.h
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+
+1434286052 c:\users\4423844.univali\desktop\testeglfw3\music\texturesynth.h
+	<Common\Sound\Module.h>
+	<Common\Sound\Resampler.h>
+	<Common\Sound\Sampler.h>
+	<Common\Sound\Loader.h>
+	<Common\Sound\Manager.h>
+	<App\Graphics.h>
+	<GL\Framebuffer.h>
+	<GL\RenderBuffer.h>
+	<Oscillator.h>
+	<ChordBank.h>
+
+1434115316 c:\users\4423844.univali\desktop\testeglfw3\music\oscillator.h
+
+1434043618 c:\users\4423844.univali\desktop\testeglfw3\music\chordbank.h
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<string>
+	<sstream>
+	<map>
+
+1427415222 c:\users\4423844.univali\desktop\testeglfw3\scenes\examplescene2.h
+	"Common/Scene.h"
+	"Common/Mesh.h"
+
+1434288904 c:\users\4423844.univali\desktop\testeglfw3\scenes\examplescene3.h
+	"GL/Texture.h"
+	"Common/Sprite.h"
+	"Common/Scene.h"
+	"Common/Text.h"
+
+1433590686 source:c:\users\4423844.univali\desktop\testeglfw3\app\ogl\oglwindow.cpp
+	"OGLWindow.h"
+
+1429566192 source:c:\users\4423844.univali\desktop\testeglfw3\app\preferences.cpp
+	"Preferences.h"
+
+1430825986 c:\users\4423844.univali\desktop\testeglfw3\app\preferences.h
+	<map>
+	<string>
+
+1429659904 source:c:\users\4423844.univali\desktop\testeglfw3\app\renderer.cpp
+	"Renderer.h"
+	"OGL/OGLRenderer.h"
+
+1429646704 source:c:\users\4423844.univali\desktop\testeglfw3\app\serial.cpp
+	"Serial.h"
+
+1429645948 c:\users\4423844.univali\desktop\testeglfw3\app\serial.h
+	<windows.h>
+	<string>
+	<iostream>
+	<sstream>
+	<vector>
+	<thread>
+
+1432651608 source:c:\users\4423844.univali\desktop\testeglfw3\app\sound.cpp
+	"Sound.h"
+	"Common/Sound/Manager.h"
+	<cstring>
+	<iostream>
+	<sstream>
+
+1430315976 source:c:\users\4423844.univali\desktop\testeglfw3\app\window.cpp
+	"Window.h"
+	"OGLWindow.h"
+	<iostream>
+
+1435262068 source:c:\users\4423844.univali\desktop\testeglfw3\characters\character.cpp
+	"Character.h"
+
+1435274570 source:c:\users\4423844.univali\desktop\testeglfw3\characters\jogador.cpp
+	"Jogador.h"
+
+1434718860 source:c:\users\4423844.univali\desktop\testeglfw3\common\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1433728876 source:c:\users\4423844.univali\desktop\testeglfw3\common\button.cpp
+	"Button.h"
+
+1426943718 source:c:\users\4423844.univali\desktop\testeglfw3\common\camera.cpp
+	"Camera.h"
+
+1426943514 c:\users\4423844.univali\desktop\testeglfw3\common\camera.h
+
+1434249932 source:c:\users\4423844.univali\desktop\testeglfw3\common\canvas.cpp
+	"Canvas.h"
+
+1434745826 source:c:\users\4423844.univali\desktop\testeglfw3\common\drawable.cpp
+	"Drawable.h"
+
+1427864256 source:c:\users\4423844.univali\desktop\testeglfw3\common\effect.cpp
+	"Effect.h"
+
+1433701888 source:c:\users\4423844.univali\desktop\testeglfw3\common\layer.cpp
+	"Layer.h"
+
+1433701912 c:\users\4423844.univali\desktop\testeglfw3\common\layer.h
+	"Drawable.h"
+	"GL\Framebuffer.h"
+	"GL\Shader.h"
+	<map>
+	<string>
+
+1433703586 source:c:\users\4423844.univali\desktop\testeglfw3\common\layer2.cpp
+	"Layer2.h"
+
+1427849878 source:c:\users\4423844.univali\desktop\testeglfw3\common\manager.cpp
+	"Manager.h"
+
+1427413496 source:c:\users\4423844.univali\desktop\testeglfw3\common\mesh.cpp
+	"Mesh.h"
+
+1431975718 source:c:\users\4423844.univali\desktop\testeglfw3\common\object.cpp
+	"Object.h"
+	<cstdlib>
+	<ctime>
+
+1428016632 source:c:\users\4423844.univali\desktop\testeglfw3\common\panel.cpp
+	"Panel.h"
+
+1428017090 c:\users\4423844.univali\desktop\testeglfw3\common\panel.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1432263014 source:c:\users\4423844.univali\desktop\testeglfw3\common\parameter.cpp
+	"Parameter.h"
+
+1432263452 c:\users\4423844.univali\desktop\testeglfw3\common\parameter.h
+	<map>
+	<queue>
+
+1430605422 source:c:\users\4423844.univali\desktop\testeglfw3\common\rect.cpp
+	"Canvas.h"
+
+1434662764 source:c:\users\4423844.univali\desktop\testeglfw3\common\scene.cpp
+	"Scene.h"
+	"Scenes/DefaultScene.h"
+	<sstream>
+
+1426769312 c:\users\4423844.univali\desktop\testeglfw3\scenes\defaultscene.h
+	"Common/Scene.h"
+
+1431522028 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\buffer.cpp
+	"Sound/Buffer.h"
+	<cstring>
+
+1432596824 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\envelopesmoother.cpp
+	"Sound/EnvelopeSmoother.h"
+
+1432232160 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\io.cpp
+	"Sound/IO.h"
+
+1432238044 c:\users\4423844.univali\desktop\testeglfw3\common\sound\io.h
+
+1431628464 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\loader.cpp
+	"Sound/Loader.h"
+	"Sound/Wavetable.h"
+	<fstream>
+	<iostream>
+
+1434253042 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\manager.cpp
+	"Sound/Manager.h"
+	<iostream>
+	<cstring>
+
+1432990532 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\module.cpp
+	"Sound/Module.h"
+	<cstdlib>
+	<cstring>
+
+1434202968 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\resampler.cpp
+	"Sound/Resampler.h"
+	<cmath>
+
+1432990542 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\sampler.cpp
+	"Sound/Sampler.h"
+	<algorithm>
+	<iostream>
+	<cmath>
+
+1434203238 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\wave.cpp
+	"Sound/Wave.h"
+	<algorithm>
+	<iostream>
+
+1432140026 source:c:\users\4423844.univali\desktop\testeglfw3\common\sound\wavetable.cpp
+	"Sound/Wavetable.h"
+	<iostream>
+
+1435266652 source:c:\users\4423844.univali\desktop\testeglfw3\common\sprite.cpp
+	"Sprite.h"
+
+1434401638 source:c:\users\4423844.univali\desktop\testeglfw3\common\text.cpp
+	"Text.h"
+
+1430616740 source:c:\users\4423844.univali\desktop\testeglfw3\common\transform.cpp
+	"Transform.h"
+	<cstring>
+
+1435240458 source:c:\users\4423844.univali\desktop\testeglfw3\common\transition.cpp
+	"Transition.h"
+
+1429654436 source:c:\users\4423844.univali\desktop\testeglfw3\common\utils.cpp
+	"Utils.h"
+
+1433557900 source:c:\users\4423844.univali\desktop\testeglfw3\gl\framebuffer.cpp
+	"Framebuffer.h"
+	"gl_includes.h"
+
+1427384046 source:c:\users\4423844.univali\desktop\testeglfw3\gl\globject.cpp
+	"GLObject.h"
+	"gl_includes.h"
+
+1433521714 source:c:\users\4423844.univali\desktop\testeglfw3\gl\pixelbuffer.cpp
+	"Pixelbuffer.h"
+
+1433521826 c:\users\4423844.univali\desktop\testeglfw3\gl\pixelbuffer.h
+	"GLObject.h"
+	"gl_includes.h"
+
+1433357580 source:c:\users\4423844.univali\desktop\testeglfw3\gl\renderbuffer.cpp
+	"Renderbuffer.h"
+	"gl_includes.h"
+
+1433505404 source:c:\users\4423844.univali\desktop\testeglfw3\gl\shader.cpp
+	"Shader.h"
+	"gl_includes.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1435237938 source:c:\users\4423844.univali\desktop\testeglfw3\gl\texture.cpp
+	"Texture.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"gl_includes.h"
+	"FreeImage.h"
+
+1427899150 source:c:\users\4423844.univali\desktop\testeglfw3\gl\vertexarray.cpp
+	"VertexArray.h"
+	"gl_includes.h"
+
+1427899290 source:c:\users\4423844.univali\desktop\testeglfw3\gl\vertexbuffer.cpp
+	"VertexBuffer.h"
+	"gl_includes.h"
+	<iostream>
+
+1434111416 source:c:\users\4423844.univali\desktop\testeglfw3\music\chordbank.cpp
+	"ChordBank.h"
+
+1434565000 source:c:\users\4423844.univali\desktop\testeglfw3\music\envelopecontroller.cpp
+	"EnvelopeController.h"
+
+1434565026 c:\users\4423844.univali\desktop\testeglfw3\music\envelopecontroller.h
+
+1432931180 source:c:\users\4423844.univali\desktop\testeglfw3\music\musicgenerator.cpp
+	"MusicGenerator.h"
+	<cstdlib>
+
+1434115316 source:c:\users\4423844.univali\desktop\testeglfw3\music\oscillator.cpp
+	"Oscillator.h"
+	<cmath>
+
+1434757464 source:c:\users\4423844.univali\desktop\testeglfw3\music\texturesynth.cpp
+	"TextureSynth.h"
+	<algorithm>
+	<cstring>
+	<cstdlib>
+	<ctime>
+
+1426539840 source:c:\users\4423844.univali\desktop\testeglfw3\scenes\defaultscene.cpp
+	"DefaultScene.h"
+
+1435966272 source:c:\users\4423844.univali\desktop\testeglfw3\scenes\examplescene.cpp
+	"ExampleScene.h"
+	"App/Serial.h"
+
+1434288612 source:c:\users\4423844.univali\desktop\testeglfw3\scenes\examplescene2.cpp
+	"ExampleScene2.h"
+
+1435262354 source:c:\users\4423844.univali\desktop\testeglfw3\scenes\examplescene3.cpp
+	"ExampleScene3.h"
+
+1432816800 source:c:\users\4423844.univali\desktop\testeglfw3\temp\teste_pimpl.cpp
+	"Teste_pImpl.h"
+
+1432845070 c:\users\4423844.univali\desktop\testeglfw3\temp\teste_pimpl.h
+	<map>
+
+1434205250 source:c:\users\4423844.univali\desktop\testeglfw3\main.cpp
+	"App/Renderer.h"
+	"App/Preferences.h"
+	"App/Serial.h"
+	"App/Sound.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	<thread>
+	<chrono>
+	<iostream>
+	<functional>
+
+1435274907 source:c:\users\4423844.univali\desktop\testeglfw3\characters\inimigo.cpp
+	"Inimigo.h"
+
+1435966193 c:\users\4423844.univali\desktop\testeglfw3\characters\tiro.h
+	"Common/Drawable.h"
+	"Common/AnimatedSprite.h"
+	"GL/Texture.h"
+	<memory>
+
+1435966241 source:c:\users\4423844.univali\desktop\testeglfw3\characters\tiro.cpp
+	"Tiro.h"
+
+1435262789 source:c:\users\4423844.univali\desktop\testeglfw3\characters\drop.cpp
+	"Drop.h"
+
+1435276800 c:\users\4423844.univali\desktop\testeglfw3\characters\drop.h
+	"Common/Drawable.h"
+	<memory>
+
+1429713106 source:c:\users\4423844.univali\desktop\testeglfw31\app\application.cpp
+	"Application.h"
+
+1430514592 c:\users\4423844.univali\desktop\testeglfw31\app\application.h
+
+1430321502 source:c:\users\4423844.univali\desktop\testeglfw31\app\console.cpp
+	"Console.h"
+
+1430321502 c:\users\4423844.univali\desktop\testeglfw31\app\console.h
+
+1429570674 source:c:\users\4423844.univali\desktop\testeglfw31\app\controller.cpp
+	"Controller.h"
+	"OGLController.h"
+	<cstring>
+
+1430247548 c:\users\4423844.univali\desktop\testeglfw31\app\controller.h
+
+1430315160 c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglcontroller.h
+	"App/Controller.h"
+	"App/Window.h"
+
+1430315630 c:\users\4423844.univali\desktop\testeglfw31\app\window.h
+	"gl_includes.h"
+	"Monitor.h"
+
+1426964032 c:\users\4423844.univali\desktop\testeglfw31\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1430315632 c:\users\4423844.univali\desktop\testeglfw31\app\monitor.h
+	<string>
+	<vector>
+
+1431457406 source:c:\users\4423844.univali\desktop\testeglfw31\app\graphics.cpp
+	"Graphics.h"
+	"OGLGraphics.h"
+
+1433361702 c:\users\4423844.univali\desktop\testeglfw31\app\graphics.h
+	"GL/Framebuffer.h"
+	"GL/Shader.h"
+	"Common/Effect.h"
+	"Window.h"
+
+1433720866 c:\users\4423844.univali\desktop\testeglfw31\gl\framebuffer.h
+	"GLObject.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1429649920 c:\users\4423844.univali\desktop\testeglfw31\gl\globject.h
+
+1435236952 c:\users\4423844.univali\desktop\testeglfw31\gl\texture.h
+	"GLObject.h"
+	<string>
+	"gl_includes.h"
+	<map>
+
+1433357516 c:\users\4423844.univali\desktop\testeglfw31\gl\renderbuffer.h
+	"GLObject.h"
+
+1429064670 c:\users\4423844.univali\desktop\testeglfw31\gl\shader.h
+	"GLObject.h"
+	<string>
+
+1434153072 c:\users\4423844.univali\desktop\testeglfw31\common\effect.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1428016460 c:\users\4423844.univali\desktop\testeglfw31\common\manager.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1433361778 c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglgraphics.h
+	"App/Graphics.h"
+	"Common/Canvas.h"
+	"Common/Effect.h"
+	"Common/Text.h"
+
+1434152572 c:\users\4423844.univali\desktop\testeglfw31\common\canvas.h
+	"gl_includes.h"
+	"GL/VertexBuffer.h"
+	"GL/VertexArray.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+
+1427384074 c:\users\4423844.univali\desktop\testeglfw31\gl\vertexbuffer.h
+	"GLObject.h"
+	<vector>
+	<cstdint>
+
+1427384074 c:\users\4423844.univali\desktop\testeglfw31\gl\vertexarray.h
+	"GLObject.h"
+
+1434383790 c:\users\4423844.univali\desktop\testeglfw31\common\text.h
+	<iostream>
+	"Graphics.h"
+	"GL/Texture.h"
+	<ft2build.h>
+	<vector>
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	<vector>
+	<sstream>
+
+1430315706 source:c:\users\4423844.univali\desktop\testeglfw31\app\monitor.cpp
+	"Monitor.h"
+	<iostream>
+	"OGLMonitor.h"
+
+1426965584 c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglmonitor.h
+	"App/Monitor.h"
+
+1430247970 source:c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglcontroller.cpp
+	"OGLController.h"
+	"OGLWindow.h"
+
+1432731264 c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglwindow.h
+	"gl_includes.h"
+	"App/Monitor.h"
+	"App/Window.h"
+
+1434199798 source:c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglgraphics.cpp
+	"OGLGraphics.h"
+	"gl_includes.h"
+
+1430231576 source:c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglmonitor.cpp
+	"OGLMonitor.h"
+	"gl_includes.h"
+	<sstream>
+
+1433590686 source:c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglwindow.cpp
+	"OGLWindow.h"
+
+1429566192 source:c:\users\4423844.univali\desktop\testeglfw31\app\preferences.cpp
+	"Preferences.h"
+
+1430825986 c:\users\4423844.univali\desktop\testeglfw31\app\preferences.h
+	<map>
+	<string>
+
+1429659904 source:c:\users\4423844.univali\desktop\testeglfw31\app\renderer.cpp
+	"Renderer.h"
+	"OGL/OGLRenderer.h"
+
+1430315316 c:\users\4423844.univali\desktop\testeglfw31\app\renderer.h
+
+1435240566 c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglrenderer.h
+	"App/Renderer.h"
+	"App/Window.h"
+	"Common/Scene.h"
+
+1433725874 c:\users\4423844.univali\desktop\testeglfw31\common\scene.h
+	"App/Graphics.h"
+	"Drawable.h"
+	<string>
+	<vector>
+	<vector>
+	<algorithm>
+
+1434746056 c:\users\4423844.univali\desktop\testeglfw31\common\drawable.h
+	"App/Graphics.h"
+	"Object.h"
+	"Transform.h"
+	"GL/Framebuffer.h"
+
+1431975956 c:\users\4423844.univali\desktop\testeglfw31\common\object.h
+	<string>
+
+1430616146 c:\users\4423844.univali\desktop\testeglfw31\common\transform.h
+	"Utils.h"
+
+1429654230 c:\users\4423844.univali\desktop\testeglfw31\common\utils.h
+
+1429646704 source:c:\users\4423844.univali\desktop\testeglfw31\app\serial.cpp
+	"Serial.h"
+
+1429645948 c:\users\4423844.univali\desktop\testeglfw31\app\serial.h
+	<windows.h>
+	<string>
+	<iostream>
+	<sstream>
+	<vector>
+	<thread>
+
+1432651608 source:c:\users\4423844.univali\desktop\testeglfw31\app\sound.cpp
+	"Sound.h"
+	"Common/Sound/Manager.h"
+	<cstring>
+	<iostream>
+	<sstream>
+
+1431633112 c:\users\4423844.univali\desktop\testeglfw31\app\sound.h
+	<portaudio.h>
+
+1432932462 c:\users\4423844.univali\desktop\testeglfw31\common\sound\manager.h
+	"Common/Sound/Module.h"
+	<map>
+	<mutex>
+	<vector>
+	<string>
+
+1432990506 c:\users\4423844.univali\desktop\testeglfw31\common\sound\module.h
+	<string>
+
+1430315976 source:c:\users\4423844.univali\desktop\testeglfw31\app\window.cpp
+	"Window.h"
+	"OGLWindow.h"
+	<iostream>
+
+1434760828 source:c:\users\4423844.univali\desktop\testeglfw31\characters\tiro.cpp
+	"Tiro.h"
+
+1434755364 c:\users\4423844.univali\desktop\testeglfw31\characters\tiro.h
+	"Common/Drawable.h"
+	"GL/Texture.h"
+
+1434718860 source:c:\users\4423844.univali\desktop\testeglfw31\common\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1434669376 c:\users\4423844.univali\desktop\testeglfw31\common\animatedsprite.h
+	"Sprite.h"
+	<map>
+
+1430612472 c:\users\4423844.univali\desktop\testeglfw31\common\sprite.h
+	"Drawable.h"
+	"GL/Texture.h"
+
+1433728876 source:c:\users\4423844.univali\desktop\testeglfw31\common\button.cpp
+	"Button.h"
+
+1432652044 c:\users\4423844.univali\desktop\testeglfw31\common\button.h
+	"Drawable.h"
+
+1426943718 source:c:\users\4423844.univali\desktop\testeglfw31\common\camera.cpp
+	"Camera.h"
+
+1426943514 c:\users\4423844.univali\desktop\testeglfw31\common\camera.h
+
+1434249932 source:c:\users\4423844.univali\desktop\testeglfw31\common\canvas.cpp
+	"Canvas.h"
+
+1434745826 source:c:\users\4423844.univali\desktop\testeglfw31\common\drawable.cpp
+	"Drawable.h"
+
+1427864256 source:c:\users\4423844.univali\desktop\testeglfw31\common\effect.cpp
+	"Effect.h"
+
+1433701888 source:c:\users\4423844.univali\desktop\testeglfw31\common\layer.cpp
+	"Layer.h"
+
+1433701912 c:\users\4423844.univali\desktop\testeglfw31\common\layer.h
+	"Drawable.h"
+	"GL\Framebuffer.h"
+	"GL\Shader.h"
+	<map>
+	<string>
+
+1433703586 source:c:\users\4423844.univali\desktop\testeglfw31\common\layer2.cpp
+	"Layer2.h"
+
+1433723616 c:\users\4423844.univali\desktop\testeglfw31\common\layer2.h
+	"Common\Canvas.h"
+	"Scene.h"
+	"GL\Shader.h"
+	"GL\Framebuffer.h"
+	"GL\Texture.h"
+	<vector>
+
+1427849878 source:c:\users\4423844.univali\desktop\testeglfw31\common\manager.cpp
+	"Manager.h"
+
+1427413496 source:c:\users\4423844.univali\desktop\testeglfw31\common\mesh.cpp
+	"Mesh.h"
+
+1427852632 c:\users\4423844.univali\desktop\testeglfw31\common\mesh.h
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	"App/Window.h"
+	"gl_includes.h"
+	<vector>
+	<typeinfo>
+
+1431975718 source:c:\users\4423844.univali\desktop\testeglfw31\common\object.cpp
+	"Object.h"
+	<cstdlib>
+	<ctime>
+
+1428016632 source:c:\users\4423844.univali\desktop\testeglfw31\common\panel.cpp
+	"Panel.h"
+
+1428017090 c:\users\4423844.univali\desktop\testeglfw31\common\panel.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1432263014 source:c:\users\4423844.univali\desktop\testeglfw31\common\parameter.cpp
+	"Parameter.h"
+
+1432263452 c:\users\4423844.univali\desktop\testeglfw31\common\parameter.h
+	<map>
+	<queue>
+
+1430605422 source:c:\users\4423844.univali\desktop\testeglfw31\common\rect.cpp
+	"Canvas.h"
+
+1434662764 source:c:\users\4423844.univali\desktop\testeglfw31\common\scene.cpp
+	"Scene.h"
+	"Scenes/DefaultScene.h"
+	<sstream>
+
+1426769312 c:\users\4423844.univali\desktop\testeglfw31\scenes\defaultscene.h
+	"Common/Scene.h"
+
+1431522028 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\buffer.cpp
+	"Sound/Buffer.h"
+	<cstring>
+
+1431522552 c:\users\4423844.univali\desktop\testeglfw31\common\sound\buffer.h
+
+1432596824 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\envelopesmoother.cpp
+	"Sound/EnvelopeSmoother.h"
+
+1432141300 c:\users\4423844.univali\desktop\testeglfw31\common\sound\envelopesmoother.h
+
+1432232160 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\io.cpp
+	"Sound/IO.h"
+
+1432238044 c:\users\4423844.univali\desktop\testeglfw31\common\sound\io.h
+
+1431628464 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\loader.cpp
+	"Sound/Loader.h"
+	"Sound/Wavetable.h"
+	<fstream>
+	<iostream>
+
+1431628460 c:\users\4423844.univali\desktop\testeglfw31\common\sound\loader.h
+	"Common/Sound/Wavetable.h"
+
+1432140036 c:\users\4423844.univali\desktop\testeglfw31\common\sound\wavetable.h
+	"Common/Sound/Wave.h"
+	<map>
+	<vector>
+	<string>
+
+1433200078 c:\users\4423844.univali\desktop\testeglfw31\common\sound\wave.h
+	"Common/Sound/Buffer.h"
+	<cstring>
+
+1434253042 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\manager.cpp
+	"Sound/Manager.h"
+	<iostream>
+	<cstring>
+
+1432990532 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\module.cpp
+	"Sound/Module.h"
+	<cstdlib>
+	<cstring>
+
+1434202968 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\resampler.cpp
+	"Sound/Resampler.h"
+	<cmath>
+
+1434201294 c:\users\4423844.univali\desktop\testeglfw31\common\sound\resampler.h
+	"Wavetable.h"
+	<iostream>
+
+1432990542 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\sampler.cpp
+	"Sound/Sampler.h"
+	<algorithm>
+	<iostream>
+	<cmath>
+
+1434045840 c:\users\4423844.univali\desktop\testeglfw31\common\sound\sampler.h
+	"Common/Sound/Wavetable.h"
+	"Common/Sound/Module.h"
+	"Common/Sound/EnvelopeSmoother.h"
+	"Common/Sound/Resampler.h"
+	<queue>
+	<mutex>
+
+1434203238 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\wave.cpp
+	"Sound/Wave.h"
+	<algorithm>
+	<iostream>
+
+1432140026 source:c:\users\4423844.univali\desktop\testeglfw31\common\sound\wavetable.cpp
+	"Sound/Wavetable.h"
+	<iostream>
+
+1430624016 source:c:\users\4423844.univali\desktop\testeglfw31\common\sprite.cpp
+	"Sprite.h"
+
+1434401638 source:c:\users\4423844.univali\desktop\testeglfw31\common\text.cpp
+	"Text.h"
+
+1430616740 source:c:\users\4423844.univali\desktop\testeglfw31\common\transform.cpp
+	"Transform.h"
+	<cstring>
+
+1429654436 source:c:\users\4423844.univali\desktop\testeglfw31\common\utils.cpp
+	"Utils.h"
+
+1433557900 source:c:\users\4423844.univali\desktop\testeglfw31\gl\framebuffer.cpp
+	"Framebuffer.h"
+	"gl_includes.h"
+
+1427384046 source:c:\users\4423844.univali\desktop\testeglfw31\gl\globject.cpp
+	"GLObject.h"
+	"gl_includes.h"
+
+1433521714 source:c:\users\4423844.univali\desktop\testeglfw31\gl\pixelbuffer.cpp
+	"Pixelbuffer.h"
+
+1433521826 c:\users\4423844.univali\desktop\testeglfw31\gl\pixelbuffer.h
+	"GLObject.h"
+	"gl_includes.h"
+
+1433357580 source:c:\users\4423844.univali\desktop\testeglfw31\gl\renderbuffer.cpp
+	"Renderbuffer.h"
+	"gl_includes.h"
+
+1433505404 source:c:\users\4423844.univali\desktop\testeglfw31\gl\shader.cpp
+	"Shader.h"
+	"gl_includes.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1427899150 source:c:\users\4423844.univali\desktop\testeglfw31\gl\vertexarray.cpp
+	"VertexArray.h"
+	"gl_includes.h"
+
+1427899290 source:c:\users\4423844.univali\desktop\testeglfw31\gl\vertexbuffer.cpp
+	"VertexBuffer.h"
+	"gl_includes.h"
+	<iostream>
+
+1434111416 source:c:\users\4423844.univali\desktop\testeglfw31\music\chordbank.cpp
+	"ChordBank.h"
+
+1434043618 c:\users\4423844.univali\desktop\testeglfw31\music\chordbank.h
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<string>
+	<sstream>
+	<map>
+
+1434565000 source:c:\users\4423844.univali\desktop\testeglfw31\music\envelopecontroller.cpp
+	"EnvelopeController.h"
+
+1434565026 c:\users\4423844.univali\desktop\testeglfw31\music\envelopecontroller.h
+
+1432931180 source:c:\users\4423844.univali\desktop\testeglfw31\music\musicgenerator.cpp
+	"MusicGenerator.h"
+	<cstdlib>
+
+1432220026 c:\users\4423844.univali\desktop\testeglfw31\music\musicgenerator.h
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+
+1434115316 source:c:\users\4423844.univali\desktop\testeglfw31\music\oscillator.cpp
+	"Oscillator.h"
+	<cmath>
+
+1434115316 c:\users\4423844.univali\desktop\testeglfw31\music\oscillator.h
+
+1434757464 source:c:\users\4423844.univali\desktop\testeglfw31\music\texturesynth.cpp
+	"TextureSynth.h"
+	<algorithm>
+	<cstring>
+	<cstdlib>
+	<ctime>
+
+1434286052 c:\users\4423844.univali\desktop\testeglfw31\music\texturesynth.h
+	<Common\Sound\Module.h>
+	<Common\Sound\Resampler.h>
+	<Common\Sound\Sampler.h>
+	<Common\Sound\Loader.h>
+	<Common\Sound\Manager.h>
+	<App\Graphics.h>
+	<GL\Framebuffer.h>
+	<GL\RenderBuffer.h>
+	<Oscillator.h>
+	<ChordBank.h>
+
+1426539840 source:c:\users\4423844.univali\desktop\testeglfw31\scenes\defaultscene.cpp
+	"DefaultScene.h"
+
+1434288612 source:c:\users\4423844.univali\desktop\testeglfw31\scenes\examplescene2.cpp
+	"ExampleScene2.h"
+
+1427415222 c:\users\4423844.univali\desktop\testeglfw31\scenes\examplescene2.h
+	"Common/Scene.h"
+	"Common/Mesh.h"
+
+1432816800 source:c:\users\4423844.univali\desktop\testeglfw31\temp\teste_pimpl.cpp
+	"Teste_pImpl.h"
+
+1432845070 c:\users\4423844.univali\desktop\testeglfw31\temp\teste_pimpl.h
+	<map>
+
+1434205250 source:c:\users\4423844.univali\desktop\testeglfw31\main.cpp
+	"App/Renderer.h"
+	"App/Preferences.h"
+	"App/Serial.h"
+	"App/Sound.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	<thread>
+	<chrono>
+	<iostream>
+	<functional>
+
+1435243592 source:c:\users\4423844.univali\desktop\testeglfw31\app\ogl\oglrenderer.cpp
+	"OGLRenderer.h"
+	"App/Monitor.h"
+	"App/Sound.h"
+	"GL/Texture.h"
+	"Common/Canvas.h"
+	"Common/Transition.h"
+	"Common/Text.h"
+	"Common/Layer2.h"
+	<thread>
+	<chrono>
+	<sstream>
+	"Scenes/ExampleScene.h"
+	"Scenes/ExampleScene2.h"
+	"Scenes/ExampleScene3.h"
+
+1435240346 c:\users\4423844.univali\desktop\testeglfw31\common\transition.h
+	"GL\Texture.h"
+	"GL\Framebuffer.h"
+	"Common\Drawable.h"
+	"Common\Scene.h"
+	"Common\Canvas.h"
+	"App\Window.h"
+
+1435262319 c:\users\4423844.univali\desktop\testeglfw31\scenes\examplescene.h
+	"App/Window.h"
+	"Common/Scene.h"
+	"Common/Sprite.h"
+	"Common/AnimatedSprite.h"
+	"Common/Effect.h"
+	"Common/Mesh.h"
+	"GL/Texture.h"
+	"GL/Framebuffer.h"
+	"Common/Text.h"
+	"Common/Button.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	"Characters/Jogador.h"
+	"Characters/Inimigo.h"
+	"Characters/Tiro.h"
+	"Characters/Drop.h"
+	"MusicGenerator.h"
+	"TextureSynth.h"
+
+1435262400 c:\users\4423844.univali\desktop\testeglfw31\characters\jogador.h
+	"Character.h"
+
+1435262172 c:\users\4423844.univali\desktop\testeglfw31\characters\character.h
+	"Common/AnimatedSprite.h"
+	<memory>
+
+1435262406 c:\users\4423844.univali\desktop\testeglfw31\characters\inimigo.h
+	"Character.h"
+
+1435262759 c:\users\4423844.univali\desktop\testeglfw31\characters\drop.h
+	"Common/Drawable.h"
+	<memory>
+
+1434288904 c:\users\4423844.univali\desktop\testeglfw31\scenes\examplescene3.h
+	"GL/Texture.h"
+	"Common/Sprite.h"
+	"Common/Scene.h"
+	"Common/Text.h"
+
+1435262068 source:c:\users\4423844.univali\desktop\testeglfw31\characters\character.cpp
+	"Character.h"
+
+1435262789 source:c:\users\4423844.univali\desktop\testeglfw31\characters\drop.cpp
+	"Drop.h"
+
+1435262715 source:c:\users\4423844.univali\desktop\testeglfw31\characters\inimigo.cpp
+	"Inimigo.h"
+
+1435262458 source:c:\users\4423844.univali\desktop\testeglfw31\characters\jogador.cpp
+	"Jogador.h"
+
+1435240458 source:c:\users\4423844.univali\desktop\testeglfw31\common\transition.cpp
+	"Transition.h"
+
+1435237938 source:c:\users\4423844.univali\desktop\testeglfw31\gl\texture.cpp
+	"Texture.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"gl_includes.h"
+	"FreeImage.h"
+
+1425431874 c:\users\4423844.univali\downloads\freeimage3170\x32\freeimage.h
+	<wchar.h>
+	<inttypes.h>
+
+1435262861 source:c:\users\4423844.univali\desktop\testeglfw31\scenes\examplescene.cpp
+	"ExampleScene.h"
+	"App/Serial.h"
+
+1435262354 source:c:\users\4423844.univali\desktop\testeglfw31\scenes\examplescene3.cpp
+	"ExampleScene3.h"
+
+1435273020 source:c:\users\4423844.univali\desktop\testeglfw3\characters\arma.cpp
+	"Arma.h"
+
+1435272670 c:\users\4423844.univali\desktop\testeglfw3\characters\arma.h
+
+1429713106 source:c:\users\marcelo\desktop\testeglfw3\app\application.cpp
+	"Application.h"
+
+1430514592 c:\users\marcelo\desktop\testeglfw3\app\application.h
+
+1430321502 source:c:\users\marcelo\desktop\testeglfw3\app\console.cpp
+	"Console.h"
+
+1430321502 c:\users\marcelo\desktop\testeglfw3\app\console.h
+
+1429570674 source:c:\users\marcelo\desktop\testeglfw3\app\controller.cpp
+	"Controller.h"
+	"OGLController.h"
+	<cstring>
+
+1430247548 c:\users\marcelo\desktop\testeglfw3\app\controller.h
+
+1430315160 c:\users\marcelo\desktop\testeglfw3\app\ogl\oglcontroller.h
+	"App/Controller.h"
+	"App/Window.h"
+
+1430315630 c:\users\marcelo\desktop\testeglfw3\app\window.h
+	"gl_includes.h"
+	"Monitor.h"
+
+1426964032 c:\users\marcelo\desktop\testeglfw3\gl_includes.h
+	<iostream>
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1430315632 c:\users\marcelo\desktop\testeglfw3\app\monitor.h
+	<string>
+	<vector>
+
+1431457406 source:c:\users\marcelo\desktop\testeglfw3\app\graphics.cpp
+	"Graphics.h"
+	"OGLGraphics.h"
+
+1436149699 c:\users\marcelo\desktop\testeglfw3\app\graphics.h
+	"GL/Framebuffer.h"
+	"GL/Shader.h"
+	"Common/Effect.h"
+	"Window.h"
+
+1433720866 c:\users\marcelo\desktop\testeglfw3\gl\framebuffer.h
+	"GLObject.h"
+	"Texture.h"
+	"Renderbuffer.h"
+
+1429649920 c:\users\marcelo\desktop\testeglfw3\gl\globject.h
+
+1436103748 c:\users\marcelo\desktop\testeglfw3\gl\texture.h
+	"GLObject.h"
+	"gl_includes.h"
+	<string>
+	<memory>
+	<map>
+
+1433357516 c:\users\marcelo\desktop\testeglfw3\gl\renderbuffer.h
+	"GLObject.h"
+
+1429064670 c:\users\marcelo\desktop\testeglfw3\gl\shader.h
+	"GLObject.h"
+	<string>
+
+1436338244 c:\users\marcelo\desktop\testeglfw3\common\effect.h
+	"GL/Shader.h"
+	"gl_includes.h"
+	"Manager.h"
+
+1428016460 c:\users\marcelo\desktop\testeglfw3\common\manager.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1436149990 c:\users\marcelo\desktop\testeglfw3\app\ogl\oglgraphics.h
+	"App/Graphics.h"
+	"Common/Canvas.h"
+	"Common/Effect.h"
+	"Common/Text.h"
+
+1434152572 c:\users\marcelo\desktop\testeglfw3\common\canvas.h
+	"gl_includes.h"
+	"GL/VertexBuffer.h"
+	"GL/VertexArray.h"
+	"GL/Shader.h"
+	"GL/Texture.h"
+
+1427384074 c:\users\marcelo\desktop\testeglfw3\gl\vertexbuffer.h
+	"GLObject.h"
+	<vector>
+	<cstdint>
+
+1427384074 c:\users\marcelo\desktop\testeglfw3\gl\vertexarray.h
+	"GLObject.h"
+
+1434383790 c:\users\marcelo\desktop\testeglfw3\common\text.h
+	<iostream>
+	"Graphics.h"
+	"GL/Texture.h"
+	<ft2build.h>
+	<vector>
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	<vector>
+	<sstream>
+
+1430315706 source:c:\users\marcelo\desktop\testeglfw3\app\monitor.cpp
+	"Monitor.h"
+	<iostream>
+	"OGLMonitor.h"
+
+1426965584 c:\users\marcelo\desktop\testeglfw3\app\ogl\oglmonitor.h
+	"App/Monitor.h"
+
+1430247970 source:c:\users\marcelo\desktop\testeglfw3\app\ogl\oglcontroller.cpp
+	"OGLController.h"
+	"OGLWindow.h"
+
+1432731264 c:\users\marcelo\desktop\testeglfw3\app\ogl\oglwindow.h
+	"gl_includes.h"
+	"App/Monitor.h"
+	"App/Window.h"
+
+1436180698 source:c:\users\marcelo\desktop\testeglfw3\app\ogl\oglgraphics.cpp
+	"OGLGraphics.h"
+	"gl_includes.h"
+
+1430231576 source:c:\users\marcelo\desktop\testeglfw3\app\ogl\oglmonitor.cpp
+	"OGLMonitor.h"
+	"gl_includes.h"
+	<sstream>
+
+1436373767 source:c:\users\marcelo\desktop\testeglfw3\app\ogl\oglrenderer.cpp
+	"OGLRenderer.h"
+	"App/Monitor.h"
+	"App/Sound.h"
+	"GL/Texture.h"
+	"Common/Canvas.h"
+	"Common/Transition.h"
+	"Common/Blending.h"
+	"Common/Text.h"
+	"Common/Layer2.h"
+	<thread>
+	<chrono>
+	<sstream>
+	"Scenes/ExampleScene.h"
+	"Scenes/ExampleScene2.h"
+	"Scenes/ExampleScene3.h"
+
+1436287172 c:\users\marcelo\desktop\testeglfw3\app\ogl\oglrenderer.h
+	"App/Renderer.h"
+	"App/Window.h"
+	"Common/Scene.h"
+
+1436278226 c:\users\marcelo\desktop\testeglfw3\app\renderer.h
+
+1436188269 c:\users\marcelo\desktop\testeglfw3\common\scene.h
+	"App/Graphics.h"
+	"Drawable.h"
+	<string>
+	<vector>
+	<vector>
+	<algorithm>
+
+1436103626 c:\users\marcelo\desktop\testeglfw3\common\drawable.h
+	"App/Graphics.h"
+	"Object.h"
+	"Transform.h"
+	"GL/Framebuffer.h"
+	<memory>
+
+1431975956 c:\users\marcelo\desktop\testeglfw3\common\object.h
+	<string>
+
+1430616146 c:\users\marcelo\desktop\testeglfw3\common\transform.h
+	"Utils.h"
+
+1429654230 c:\users\marcelo\desktop\testeglfw3\common\utils.h
+
+1431633112 c:\users\marcelo\desktop\testeglfw3\app\sound.h
+	<portaudio.h>
+
+1435240346 c:\users\marcelo\desktop\testeglfw3\common\transition.h
+	"GL\Texture.h"
+	"GL\Framebuffer.h"
+	"Common\Drawable.h"
+	"Common\Scene.h"
+	"Common\Canvas.h"
+	"App\Window.h"
+
+1433723616 c:\users\marcelo\desktop\testeglfw3\common\layer2.h
+	"Common\Canvas.h"
+	"Scene.h"
+	"GL\Shader.h"
+	"GL\Framebuffer.h"
+	"GL\Texture.h"
+	<vector>
+
+1436377872 c:\users\marcelo\desktop\testeglfw3\scenes\examplescene.h
+	"App/Window.h"
+	"App/Serial.h"
+	"App/Renderer.h"
+	"Common/Scene.h"
+	"Common/Sprite.h"
+	"Common/AnimatedSprite.h"
+	"Common/Effect.h"
+	"Common/Mesh.h"
+	"GL/Texture.h"
+	"GL/Framebuffer.h"
+	"Common/Text.h"
+	"Common/Transition.h"
+	"Common/Button.h"
+	"Common/Blending.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	"Characters/Jogador.h"
+	"Characters/Inimigo.h"
+	"Characters/Tiro.h"
+	"Characters/Drop.h"
+	"MusicGenerator.h"
+	"TextureSynth.h"
+
+1436200896 c:\users\marcelo\desktop\testeglfw3\common\sprite.h
+	"Drawable.h"
+	"GL/Texture.h"
+
+1436103811 c:\users\marcelo\desktop\testeglfw3\common\animatedsprite.h
+	"Sprite.h"
+	<memory>
+
+1427852632 c:\users\marcelo\desktop\testeglfw3\common\mesh.h
+	"GL/VertexArray.h"
+	"GL/VertexBuffer.h"
+	"GL/Shader.h"
+	"App/Window.h"
+	"gl_includes.h"
+	<vector>
+	<typeinfo>
+
+1432652044 c:\users\marcelo\desktop\testeglfw3\common\button.h
+	"Drawable.h"
+
+1436197097 c:\users\marcelo\desktop\testeglfw3\common\sound\loader.h
+	"Common/Sound/Wavetable.h"
+
+1432140036 c:\users\marcelo\desktop\testeglfw3\common\sound\wavetable.h
+	"Common/Sound/Wave.h"
+	<map>
+	<vector>
+	<string>
+
+1433200078 c:\users\marcelo\desktop\testeglfw3\common\sound\wave.h
+	"Common/Sound/Buffer.h"
+	<cstring>
+
+1431522552 c:\users\marcelo\desktop\testeglfw3\common\sound\buffer.h
+
+1432932462 c:\users\marcelo\desktop\testeglfw3\common\sound\manager.h
+	"Common/Sound/Module.h"
+	<map>
+	<mutex>
+	<vector>
+	<string>
+
+1432990506 c:\users\marcelo\desktop\testeglfw3\common\sound\module.h
+	<string>
+
+1434045840 c:\users\marcelo\desktop\testeglfw3\common\sound\sampler.h
+	"Common/Sound/Wavetable.h"
+	"Common/Sound/Module.h"
+	"Common/Sound/EnvelopeSmoother.h"
+	"Common/Sound/Resampler.h"
+	<queue>
+	<mutex>
+
+1432141300 c:\users\marcelo\desktop\testeglfw3\common\sound\envelopesmoother.h
+
+1434201294 c:\users\marcelo\desktop\testeglfw3\common\sound\resampler.h
+	"Wavetable.h"
+	<iostream>
+
+1436364071 c:\users\marcelo\desktop\testeglfw3\characters\jogador.h
+	"Character.h"
+	"Drop.h"
+	"Armas/Arma.h"
+	"Armas/Arma.h"
+
+1436378142 c:\users\marcelo\desktop\testeglfw3\characters\character.h
+	"Common/AnimatedSprite.h"
+	<memory>
+	<cmath>
+	"gl_includes.h"
+
+1436140823 c:\users\marcelo\desktop\testeglfw3\characters\arma.h
+	<memory>
+
+1436378282 c:\users\marcelo\desktop\testeglfw3\characters\inimigo.h
+	"Character.h"
+
+1436366391 c:\users\marcelo\desktop\testeglfw3\characters\tiro.h
+	"Common/Drawable.h"
+	"Common/AnimatedSprite.h"
+	<memory>
+	"Character.h"
+
+1436376892 c:\users\marcelo\desktop\testeglfw3\characters\drop.h
+	"Character.h"
+	"Common/Drawable.h"
+	"Common/Sound/Sampler.h"
+	"Common/Sound/Loader.h"
+	<memory>
+
+1432220026 c:\users\marcelo\desktop\testeglfw3\music\musicgenerator.h
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+
+1436075890 c:\users\marcelo\desktop\testeglfw3\music\texturesynth.h
+	<Common\Sound\Module.h>
+	<Common\Sound\Resampler.h>
+	<Common\Sound\Sampler.h>
+	<Common\Sound\Loader.h>
+	<Common\Sound\Manager.h>
+	<App\Graphics.h>
+	<GL\Framebuffer.h>
+	<GL\RenderBuffer.h>
+	<Oscillator.h>
+	<ChordBank.h>
+
+1434115316 c:\users\marcelo\desktop\testeglfw3\music\oscillator.h
+
+1434043618 c:\users\marcelo\desktop\testeglfw3\music\chordbank.h
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+	<string>
+	<sstream>
+	<map>
+
+1436367008 c:\users\marcelo\desktop\testeglfw3\scenes\examplescene2.h
+	"App/Renderer.h"
+	"Common/Sound/Sampler.h"
+	"Common/Transition.h"
+	"Common/Button.h"
+	"Common/Scene.h"
+	"Common/Mesh.h"
+	"GL/Texture.h"
+	"Scenes/ExampleScene.h"
+
+1436281006 c:\users\marcelo\desktop\testeglfw3\scenes\examplescene3.h
+	"GL/Texture.h"
+	"Common/Sprite.h"
+	"Common/Scene.h"
+	"Common/Text.h"
+
+1433590686 source:c:\users\marcelo\desktop\testeglfw3\app\ogl\oglwindow.cpp
+	"OGLWindow.h"
+
+1429566192 source:c:\users\marcelo\desktop\testeglfw3\app\preferences.cpp
+	"Preferences.h"
+
+1430825986 c:\users\marcelo\desktop\testeglfw3\app\preferences.h
+	<map>
+	<string>
+
+1429659904 source:c:\users\marcelo\desktop\testeglfw3\app\renderer.cpp
+	"Renderer.h"
+	"OGL/OGLRenderer.h"
+
+1429646704 source:c:\users\marcelo\desktop\testeglfw3\app\serial.cpp
+	"Serial.h"
+
+1429645948 c:\users\marcelo\desktop\testeglfw3\app\serial.h
+	<windows.h>
+	<string>
+	<iostream>
+	<sstream>
+	<vector>
+	<thread>
+
+1432651608 source:c:\users\marcelo\desktop\testeglfw3\app\sound.cpp
+	"Sound.h"
+	"Common/Sound/Manager.h"
+	<cstring>
+	<iostream>
+	<sstream>
+
+1430315976 source:c:\users\marcelo\desktop\testeglfw3\app\window.cpp
+	"Window.h"
+	"OGLWindow.h"
+	<iostream>
+
+1436140837 source:c:\users\marcelo\desktop\testeglfw3\characters\arma.cpp
+	"Arma.h"
+
+1436364113 source:c:\users\marcelo\desktop\testeglfw3\characters\character.cpp
+	"Character.h"
+	<algorithm>
+
+1436378837 source:c:\users\marcelo\desktop\testeglfw3\characters\drop.cpp
+	"Drop.h"
+	<cstdlib>
+
+1436378266 source:c:\users\marcelo\desktop\testeglfw3\characters\inimigo.cpp
+	"Inimigo.h"
+	"Jogador.h"
+	<cstdlib>
+
+1436377996 source:c:\users\marcelo\desktop\testeglfw3\characters\jogador.cpp
+	"Jogador.h"
+
+1436366316 source:c:\users\marcelo\desktop\testeglfw3\characters\tiro.cpp
+	"Tiro.h"
+
+1434718860 source:c:\users\marcelo\desktop\testeglfw3\common\animatedsprite.cpp
+	"AnimatedSprite.h"
+
+1433728876 source:c:\users\marcelo\desktop\testeglfw3\common\button.cpp
+	"Button.h"
+
+1426943718 source:c:\users\marcelo\desktop\testeglfw3\common\camera.cpp
+	"Camera.h"
+
+1426943514 c:\users\marcelo\desktop\testeglfw3\common\camera.h
+
+1434249932 source:c:\users\marcelo\desktop\testeglfw3\common\canvas.cpp
+	"Canvas.h"
+
+1434745826 source:c:\users\marcelo\desktop\testeglfw3\common\drawable.cpp
+	"Drawable.h"
+
+1427864256 source:c:\users\marcelo\desktop\testeglfw3\common\effect.cpp
+	"Effect.h"
+
+1433701888 source:c:\users\marcelo\desktop\testeglfw3\common\layer.cpp
+	"Layer.h"
+
+1433701912 c:\users\marcelo\desktop\testeglfw3\common\layer.h
+	"Drawable.h"
+	"GL\Framebuffer.h"
+	"GL\Shader.h"
+	<map>
+	<string>
+
+1433703586 source:c:\users\marcelo\desktop\testeglfw3\common\layer2.cpp
+	"Layer2.h"
+
+1427849878 source:c:\users\marcelo\desktop\testeglfw3\common\manager.cpp
+	"Manager.h"
+
+1427413496 source:c:\users\marcelo\desktop\testeglfw3\common\mesh.cpp
+	"Mesh.h"
+
+1431975718 source:c:\users\marcelo\desktop\testeglfw3\common\object.cpp
+	"Object.h"
+	<cstdlib>
+	<ctime>
+
+1428016632 source:c:\users\marcelo\desktop\testeglfw3\common\panel.cpp
+	"Panel.h"
+
+1428017090 c:\users\marcelo\desktop\testeglfw3\common\panel.h
+	<map>
+	<list>
+	<utility>
+	<string>
+
+1432263014 source:c:\users\marcelo\desktop\testeglfw3\common\parameter.cpp
+	"Parameter.h"
+
+1432263452 c:\users\marcelo\desktop\testeglfw3\common\parameter.h
+	<map>
+	<queue>
+
+1430605422 source:c:\users\marcelo\desktop\testeglfw3\common\rect.cpp
+	"Canvas.h"
+
+1434662764 source:c:\users\marcelo\desktop\testeglfw3\common\scene.cpp
+	"Scene.h"
+	"Scenes/DefaultScene.h"
+	<sstream>
+
+1426769312 c:\users\marcelo\desktop\testeglfw3\scenes\defaultscene.h
+	"Common/Scene.h"
+
+1431522028 source:c:\users\marcelo\desktop\testeglfw3\common\sound\buffer.cpp
+	"Sound/Buffer.h"
+	<cstring>
+
+1432596824 source:c:\users\marcelo\desktop\testeglfw3\common\sound\envelopesmoother.cpp
+	"Sound/EnvelopeSmoother.h"
+
+1432232160 source:c:\users\marcelo\desktop\testeglfw3\common\sound\io.cpp
+	"Sound/IO.h"
+
+1432238044 c:\users\marcelo\desktop\testeglfw3\common\sound\io.h
+
+1436197110 source:c:\users\marcelo\desktop\testeglfw3\common\sound\loader.cpp
+	"Sound/Loader.h"
+	"Sound/Wavetable.h"
+	<fstream>
+	<iostream>
+
+1434253042 source:c:\users\marcelo\desktop\testeglfw3\common\sound\manager.cpp
+	"Sound/Manager.h"
+	<iostream>
+	<cstring>
+
+1432990532 source:c:\users\marcelo\desktop\testeglfw3\common\sound\module.cpp
+	"Sound/Module.h"
+	<cstdlib>
+	<cstring>
+
+1434202968 source:c:\users\marcelo\desktop\testeglfw3\common\sound\resampler.cpp
+	"Sound/Resampler.h"
+	<cmath>
+
+1436295103 source:c:\users\marcelo\desktop\testeglfw3\common\sound\sampler.cpp
+	"Sound/Sampler.h"
+	<algorithm>
+	<iostream>
+	<cmath>
+	"Manager.h"
+
+1434203238 source:c:\users\marcelo\desktop\testeglfw3\common\sound\wave.cpp
+	"Sound/Wave.h"
+	<algorithm>
+	<iostream>
+
+1432140026 source:c:\users\marcelo\desktop\testeglfw3\common\sound\wavetable.cpp
+	"Sound/Wavetable.h"
+	<iostream>
+
+1435266654 source:c:\users\marcelo\desktop\testeglfw3\common\sprite.cpp
+	"Sprite.h"
+
+1436150010 source:c:\users\marcelo\desktop\testeglfw3\common\text.cpp
+	"Text.h"
+
+1430616740 source:c:\users\marcelo\desktop\testeglfw3\common\transform.cpp
+	"Transform.h"
+	<cstring>
+
+1436187826 source:c:\users\marcelo\desktop\testeglfw3\common\transition.cpp
+	"Transition.h"
+
+1429654436 source:c:\users\marcelo\desktop\testeglfw3\common\utils.cpp
+	"Utils.h"
+
+1433557900 source:c:\users\marcelo\desktop\testeglfw3\gl\framebuffer.cpp
+	"Framebuffer.h"
+	"gl_includes.h"
+
+1427384046 source:c:\users\marcelo\desktop\testeglfw3\gl\globject.cpp
+	"GLObject.h"
+	"gl_includes.h"
+
+1433521714 source:c:\users\marcelo\desktop\testeglfw3\gl\pixelbuffer.cpp
+	"Pixelbuffer.h"
+
+1433521826 c:\users\marcelo\desktop\testeglfw3\gl\pixelbuffer.h
+	"GLObject.h"
+	"gl_includes.h"
+
+1433357580 source:c:\users\marcelo\desktop\testeglfw3\gl\renderbuffer.cpp
+	"Renderbuffer.h"
+	"gl_includes.h"
+
+1433505404 source:c:\users\marcelo\desktop\testeglfw3\gl\shader.cpp
+	"Shader.h"
+	"gl_includes.h"
+	<fstream>
+	<iostream>
+	<sstream>
+
+1436123429 source:c:\users\marcelo\desktop\testeglfw3\gl\texture.cpp
+	"Texture.h"
+	<fstream>
+	<sstream>
+	<iostream>
+	"gl_includes.h"
+	"FreeImage.h"
+
+1427899150 source:c:\users\marcelo\desktop\testeglfw3\gl\vertexarray.cpp
+	"VertexArray.h"
+	"gl_includes.h"
+
+1427899290 source:c:\users\marcelo\desktop\testeglfw3\gl\vertexbuffer.cpp
+	"VertexBuffer.h"
+	"gl_includes.h"
+	<iostream>
+
+1434205250 source:c:\users\marcelo\desktop\testeglfw3\main.cpp
+	"App/Renderer.h"
+	"App/Preferences.h"
+	"App/Serial.h"
+	"App/Sound.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Manager.h"
+	"Common/Sound/Sampler.h"
+	<thread>
+	<chrono>
+	<iostream>
+	<functional>
+
+1434111416 source:c:\users\marcelo\desktop\testeglfw3\music\chordbank.cpp
+	"ChordBank.h"
+
+1434565000 source:c:\users\marcelo\desktop\testeglfw3\music\envelopecontroller.cpp
+	"EnvelopeController.h"
+
+1434565026 c:\users\marcelo\desktop\testeglfw3\music\envelopecontroller.h
+
+1432931180 source:c:\users\marcelo\desktop\testeglfw3\music\musicgenerator.cpp
+	"MusicGenerator.h"
+	<cstdlib>
+
+1434115316 source:c:\users\marcelo\desktop\testeglfw3\music\oscillator.cpp
+	"Oscillator.h"
+	<cmath>
+
+1436328498 source:c:\users\marcelo\desktop\testeglfw3\music\texturesynth.cpp
+	"TextureSynth.h"
+	<algorithm>
+	<cstring>
+	<cstdlib>
+	<ctime>
+
+1426539840 source:c:\users\marcelo\desktop\testeglfw3\scenes\defaultscene.cpp
+	"DefaultScene.h"
+
+1436378391 source:c:\users\marcelo\desktop\testeglfw3\scenes\examplescene.cpp
+	"ExampleScene.h"
+
+1436367022 source:c:\users\marcelo\desktop\testeglfw3\scenes\examplescene2.cpp
+	"ExampleScene2.h"
+
+1436281006 source:c:\users\marcelo\desktop\testeglfw3\scenes\examplescene3.cpp
+	"ExampleScene3.h"
+
+1432816800 source:c:\users\marcelo\desktop\testeglfw3\temp\teste_pimpl.cpp
+	"Teste_pImpl.h"
+
+1432845070 c:\users\marcelo\desktop\testeglfw3\temp\teste_pimpl.h
+	<map>
+
+1425431874 n:\libs\freeimage3170\x32\freeimage.h
+	<wchar.h>
+	<inttypes.h>
+
+1436366418 c:\users\marcelo\desktop\testeglfw3\armas\arma.h
+	"Characters/Tiro.h"
+	"Characters/Character.h"
+	"Common/Sound/Sampler.h"
+	"Common/Sound/Loader.h"
+	"Common/Sound/Loader.h"
+
+1436374150 source:c:\users\marcelo\desktop\testeglfw3\armas\arma.cpp
+	"Arma.h"
+	<cstdlib>
+	<Characters\Jogador.h>
+
+1436193023 c:\users\marcelo\desktop\testeglfw3\common\blending.h
+	"App\Window.h"
+	"GL\Texture.h"
+	"Common\Drawable.h"
+	"Common\Canvas.h"
+
+1436193061 source:c:\users\marcelo\desktop\testeglfw3\common\blending.cpp
+	"Blending.h"
+
+1436303880 source:c:\users\marcelo\desktop\testeglfw3\armas\objetoexplosivo.cpp
+	"ObjetoExplosivo.h"
+
+1436303877 c:\users\marcelo\desktop\testeglfw3\armas\objetoexplosivo.h
+	"Common\Drawable.h"
+

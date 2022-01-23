@@ -1,0 +1,68 @@
+/***********************************************************************
+    Autor               : Marcelo de Oliveira Bittencourt
+    Data de criação     : 2015-03-19
+***********************************************************************/
+#ifndef ANIMATEDSPRITE_H
+#define ANIMATEDSPRITE_H
+
+#include "Sprite.h"
+#include <map>
+
+using std::map;
+
+class AnimatedSprite : public Sprite
+{
+public:
+
+    class AnimatedSpriteState
+    {
+        bool        loopable;
+        unsigned    frameCount;
+        unsigned    frameStart;
+        unsigned    frameEnd;
+        double      frameProgress;
+    };
+
+    typedef map<unsigned, AnimatedSpriteState>              AnimatedSpriteStateMap;
+    typedef pair<unsigned, AnimatedSpriteState>             AnimatedSpriteStatePair;
+    typedef map<unsigned, AnimatedSpriteState>::iterator    AnimatedSpriteStateIterator;
+
+    bool        running = true;
+    unsigned    frameCount;
+    unsigned    frameStart;
+    unsigned    frameEnd;
+    double      frameProgress;
+    double      interval;
+    double      velocity;
+
+    AnimatedSpriteStateMap  animStateMap;
+    AnimatedSpriteState&    currentState;
+
+public:
+
+    AnimatedSprite(Texture* texture, unsigned imgw, unsigned imgh, unsigned tilew, unsigned tileh, double interval);
+    AnimatedSprite(Texture* texture, unsigned tilew, unsigned tileh, double interval);
+    ~AnimatedSprite();
+    void start();
+    void pause();
+    void stop();
+    void setState(unsigned state)
+    {
+        AnimatedSpriteStateIterator animState = animStateMap.find(state);
+        if(animState != animStateMap.end())
+        {
+            currentState = animState->second;
+            return;
+        }
+        animStateMap.insert(AnimatedSpriteStatePair(state, AnimatedSpriteState()));
+    }
+    void setInterval(double interval);
+    void setLoopable(bool loopable);
+    void setFrameCurrent(unsigned frameCurrent);
+    void setFrameStart(unsigned frameStart);
+    void setFrameEnd(unsigned frameEnd);
+    void setVelocity(double velocity);
+    void process(double deltaTime);
+    void render(Graphics* g);
+};
+#endif // ANIMATEDSPRITE_H

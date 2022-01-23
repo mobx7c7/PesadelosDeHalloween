@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TesteGLFW3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/TesteGLFW3_debug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="Common" />
+					<Add directory="App/OGL" />
+					<Add directory="Common/" />
+					<Add directory="Common/Button" />
+					<Add directory="App" />
+					<Add directory="Common/Sound" />
+					<Add directory="Common/SoundWave" />
+					<Add directory="Music" />
+					<Add directory="Temp" />
+					<Add directory="GL" />
+					<Add directory="Characters" />
+					<Add directory="Armas/" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/TesteGLFW3_release" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="Common" />
+					<Add directory="App/OGL" />
+					<Add directory="Common/" />
+					<Add directory="Common/Button" />
+					<Add directory="App" />
+					<Add directory="Common/Sound" />
+					<Add directory="Common/SoundWave" />
+					<Add directory="Music" />
+					<Add directory="Temp" />
+					<Add directory="GL" />
+					<Add directory="Characters" />
+					<Add directory="Armas/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="." />
+		</Compiler>
+		<Linker>
+			<Add library="opengl32" />
+			<Add library="glfw3dll" />
+			<Add library="glew32.dll" />
+			<Add library="freetype.dll" />
+			<Add library="portaudio.dll" />
+			<Add library="FreeImage" />
+		</Linker>
+		<Unit filename="App/Application.cpp" />
+		<Unit filename="App/Application.h" />
+		<Unit filename="App/Console.cpp" />
+		<Unit filename="App/Console.h" />
+		<Unit filename="App/Controller.cpp" />
+		<Unit filename="App/Controller.h" />
+		<Unit filename="App/Graphics.cpp" />
+		<Unit filename="App/Graphics.h" />
+		<Unit filename="App/Monitor.cpp" />
+		<Unit filename="App/Monitor.h" />
+		<Unit filename="App/OGL/OGLController.cpp" />
+		<Unit filename="App/OGL/OGLController.h" />
+		<Unit filename="App/OGL/OGLGraphics.cpp" />
+		<Unit filename="App/OGL/OGLGraphics.h" />
+		<Unit filename="App/OGL/OGLMonitor.cpp" />
+		<Unit filename="App/OGL/OGLMonitor.h" />
+		<Unit filename="App/OGL/OGLRenderer.cpp" />
+		<Unit filename="App/OGL/OGLRenderer.h" />
+		<Unit filename="App/OGL/OGLWindow.cpp" />
+		<Unit filename="App/OGL/OGLWindow.h" />
+		<Unit filename="App/Preferences.cpp" />
+		<Unit filename="App/Preferences.h" />
+		<Unit filename="App/Renderer.cpp" />
+		<Unit filename="App/Renderer.h" />
+		<Unit filename="App/Serial.cpp" />
+		<Unit filename="App/Serial.h" />
+		<Unit filename="App/Sound.cpp" />
+		<Unit filename="App/Sound.h" />
+		<Unit filename="App/Window.cpp" />
+		<Unit filename="App/Window.h" />
+		<Unit filename="Armas/Arma.cpp" />
+		<Unit filename="Armas/Arma.h" />
+		<Unit filename="Armas/ObjetoExplosivo.cpp" />
+		<Unit filename="Armas/ObjetoExplosivo.h" />
+		<Unit filename="Characters/Character.cpp" />
+		<Unit filename="Characters/Character.h" />
+		<Unit filename="Characters/Drop.cpp" />
+		<Unit filename="Characters/Drop.h" />
+		<Unit filename="Characters/Inimigo.cpp" />
+		<Unit filename="Characters/Inimigo.h" />
+		<Unit filename="Characters/Jogador.cpp" />
+		<Unit filename="Characters/Jogador.h" />
+		<Unit filename="Characters/Tiro.cpp" />
+		<Unit filename="Characters/Tiro.h" />
+		<Unit filename="Common/AnimatedSprite.cpp" />
+		<Unit filename="Common/AnimatedSprite.h" />
+		<Unit filename="Common/Blending.cpp" />
+		<Unit filename="Common/Blending.h" />
+		<Unit filename="Common/Button.cpp" />
+		<Unit filename="Common/Button.h" />
+		<Unit filename="Common/Camera.cpp" />
+		<Unit filename="Common/Camera.h" />
+		<Unit filename="Common/Canvas.cpp" />
+		<Unit filename="Common/Canvas.h" />
+		<Unit filename="Common/Drawable.cpp" />
+		<Unit filename="Common/Drawable.h" />
+		<Unit filename="Common/Effect.cpp" />
+		<Unit filename="Common/Effect.h" />
+		<Unit filename="Common/Layer.cpp" />
+		<Unit filename="Common/Layer.h" />
+		<Unit filename="Common/Layer2.cpp" />
+		<Unit filename="Common/Layer2.h" />
+		<Unit filename="Common/Manager.cpp" />
+		<Unit filename="Common/Manager.h" />
+		<Unit filename="Common/Mesh.cpp" />
+		<Unit filename="Common/Mesh.h" />
+		<Unit filename="Common/Object.cpp" />
+		<Unit filename="Common/Object.h" />
+		<Unit filename="Common/Panel.cpp" />
+		<Unit filename="Common/Panel.h" />
+		<Unit filename="Common/Parameter.cpp" />
+		<Unit filename="Common/Parameter.h" />
+		<Unit filename="Common/Rect.cpp" />
+		<Unit filename="Common/Rect.h" />
+		<Unit filename="Common/Scene.cpp" />
+		<Unit filename="Common/Scene.h" />
+		<Unit filename="Common/Sound/Buffer.cpp" />
+		<Unit filename="Common/Sound/Buffer.h" />
+		<Unit filename="Common/Sound/EnvelopeSmoother.cpp" />
+		<Unit filename="Common/Sound/EnvelopeSmoother.h" />
+		<Unit filename="Common/Sound/IO.cpp" />
+		<Unit filename="Common/Sound/IO.h" />
+		<Unit filename="Common/Sound/Loader.cpp" />
+		<Unit filename="Common/Sound/Loader.h" />
+		<Unit filename="Common/Sound/Manager.cpp" />
+		<Unit filename="Common/Sound/Manager.h" />
+		<Unit filename="Common/Sound/Module.cpp" />
+		<Unit filename="Common/Sound/Module.h" />
+		<Unit filename="Common/Sound/Resampler.cpp" />
+		<Unit filename="Common/Sound/Resampler.h" />
+		<Unit filename="Common/Sound/Sampler.cpp" />
+		<Unit filename="Common/Sound/Sampler.h" />
+		<Unit filename="Common/Sound/Wave.cpp" />
+		<Unit filename="Common/Sound/Wave.h" />
+		<Unit filename="Common/Sound/Wavetable.cpp" />
+		<Unit filename="Common/Sound/Wavetable.h" />
+		<Unit filename="Common/Sprite.cpp" />
+		<Unit filename="Common/Sprite.h" />
+		<Unit filename="Common/Text.cpp" />
+		<Unit filename="Common/Text.h" />
+		<Unit filename="Common/Transform.cpp" />
+		<Unit filename="Common/Transform.h" />
+		<Unit filename="Common/Transition.cpp" />
+		<Unit filename="Common/Transition.h" />
+		<Unit filename="Common/Utils.cpp" />
+		<Unit filename="Common/Utils.h" />
+		<Unit filename="GL/Framebuffer.cpp" />
+		<Unit filename="GL/Framebuffer.h" />
+		<Unit filename="GL/GLObject.cpp" />
+		<Unit filename="GL/GLObject.h" />
+		<Unit filename="GL/Pixelbuffer.cpp" />
+		<Unit filename="GL/Pixelbuffer.h" />
+		<Unit filename="GL/RenderBuffer.cpp" />
+		<Unit filename="GL/RenderBuffer.h" />
+		<Unit filename="GL/Shader.cpp" />
+		<Unit filename="GL/Shader.h" />
+		<Unit filename="GL/Texture.cpp" />
+		<Unit filename="GL/Texture.h" />
+		<Unit filename="GL/VertexArray.cpp" />
+		<Unit filename="GL/VertexArray.h" />
+		<Unit filename="GL/VertexBuffer.cpp" />
+		<Unit filename="GL/VertexBuffer.h" />
+		<Unit filename="Music/ChordBank.cpp" />
+		<Unit filename="Music/ChordBank.h" />
+		<Unit filename="Music/EnvelopeController.cpp" />
+		<Unit filename="Music/EnvelopeController.h" />
+		<Unit filename="Music/MusicGenerator.cpp" />
+		<Unit filename="Music/MusicGenerator.h" />
+		<Unit filename="Music/Oscillator.cpp" />
+		<Unit filename="Music/Oscillator.h" />
+		<Unit filename="Music/TextureSynth.cpp" />
+		<Unit filename="Music/TextureSynth.h" />
+		<Unit filename="Scenes/DefaultScene.cpp" />
+		<Unit filename="Scenes/DefaultScene.h" />
+		<Unit filename="Scenes/ExampleScene.cpp" />
+		<Unit filename="Scenes/ExampleScene.h" />
+		<Unit filename="Scenes/ExampleScene2.cpp" />
+		<Unit filename="Scenes/ExampleScene2.h" />
+		<Unit filename="Scenes/ExampleScene3.cpp" />
+		<Unit filename="Scenes/ExampleScene3.h" />
+		<Unit filename="Temp/Teste_pImpl.cpp" />
+		<Unit filename="Temp/Teste_pImpl.h" />
+		<Unit filename="freetype_includes.h" />
+		<Unit filename="gl_includes.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+name="C";
+length=4;
+values={40,44,47,52};
+name="D";
+length=4;
+values={42,46,49,54};

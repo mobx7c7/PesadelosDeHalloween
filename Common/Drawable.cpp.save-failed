@@ -1,0 +1,156 @@
+/***********************************************************************
+    Autor               : Marcelo de Oliveira Bittencourt
+    Data de criação     : 2015-03-19
+***********************************************************************/
+#include "Drawable.h"
+
+//Drawable::Drawable(std::string name = "") : Object(name, 0)
+//    width     (0),
+//    height    (0),
+//    posX      (0),
+//    posY      (0),
+//    offX      (0),
+//    offY      (0),
+//    scaleX    (1),
+//    scaleY    (1),
+//    rotation  (0)
+//{
+
+//Drawable::Drawable(std::string name, Object* parent) : Object(name, parent)
+////    name      (name),
+//    width     (0),
+//    height    (0),
+//    posX      (0),
+//    posY      (0),
+//    offX      (0),
+//    offY      (0),
+//    scaleX    (1),
+//    scaleY    (1),
+//    rotation  (0)
+//{
+
+Drawable::Drawable(std::string name)
+    name      (name),
+    width     (0),
+    height    (0),
+    posX      (0),
+    posY      (0),
+    offX      (0),
+    offY      (0),
+    scaleX    (1),
+    scaleY    (1),
+    rotation  (0)
+{
+
+}
+
+Drawable::Drawable() : Drawable("Drawable")
+{
+
+}
+
+Drawable::~Drawable()
+{
+
+}
+
+std::string& Drawable::getName()
+{
+    return name;
+}
+
+int Drawable::getPositionX()
+{
+	return posX;
+}
+
+int Drawable::getPositionY()
+{
+	return posY;
+}
+
+int Drawable::getOffsetX()
+{
+	return offX;
+}
+
+int Drawable::getOffsetY()
+{
+	return offY;
+}
+
+unsigned Drawable::getWidth()
+{
+	return width;
+}
+
+unsigned Drawable::getHeight()
+{
+	return height;
+}
+
+double Drawable::getRotation()
+{
+	return rotation;
+}
+
+double Drawable::getScaleX()
+{
+	return scaleX;
+}
+
+double Drawable::getScaleY()
+{
+	return scaleY;
+}
+
+void Drawable::setName(std::string name)
+{
+    this->name = name;
+}
+
+void Drawable::setPositionX(int posX)
+{
+    this->posX = posX;
+}
+
+void Drawable::setPositionY(int posY)
+{
+    this->posY = posY;
+}
+
+void Drawable::setOffsetX(int offX)
+{
+    this->offX = offX;
+}
+
+void Drawable::setOffsetY(int offY)
+{
+    this->offY = offY;
+}
+
+void Drawable::setWidth(unsigned width)
+{
+    this->width = width;
+}
+
+void Drawable::setHeight(unsigned height)
+{
+    this->height = height;
+}
+
+void Drawable::setScaleX(double scaleX)
+{
+    this->scaleX = scaleX;
+}
+
+void Drawable::setScaleY(double scaleY)
+{
+    this->scaleY = scaleY;
+}
+
+void Drawable::setRotation(double rotation)
+{
+    this->rotation = rotation;
+}
+
